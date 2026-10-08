@@ -1,0 +1,84 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>作業本機技術完成狀態</title><style>body{margin:0;background:#eef3f6;color:#172839;font:16px/1.65 system-ui,sans-serif}main{max-width:1160px;margin:auto;padding:32px 40px;background:white}h1{font-size:34px;line-height:1.2}h2{margin-top:44px;border-top:1px solid #ccd9e2;padding-top:20px}a{color:#135d95}code{background:#edf3f7;padding:2px 4px}pre{white-space:pre-wrap;background:#142d42;color:#edf6fc;padding:16px;overflow:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px;border:1px solid #d3dfe7;text-align:left;vertical-align:top}th{background:#edf3f7}.scroll{overflow:auto}.cards,.stages{display:grid;gap:10px;grid-template-columns:repeat(5,minmax(0,1fr))}.stage{padding:12px;border:1px solid #ccdce5;background:#f4f8fb;overflow-wrap:anywhere}.stage b{color:#15577e}.stage pre{font-size:12px;padding:8px;margin:6px 0}.muted{font-size:14px;color:#596c7c}.note{padding:14px;background:#fff4d9;border-left:4px solid #bd923c}button{padding:7px 12px;margin:4px;border:1px solid #9bb2c2;background:white;border-radius:4px;cursor:pointer}input[type=range]{width:60%;vertical-align:middle}img{max-width:100%;height:auto}canvas{width:350px;max-width:100%;height:auto;background:#000;image-rendering:pixelated}nav{display:flex;flex-wrap:wrap;gap:18px}.bubble{color:#7e8992}.signal{font:13px/1.5 Consolas,monospace;white-space:pre-wrap}.hazard{background:#fff0d2}.math-source{white-space:pre-wrap;font-family:Consolas,monospace}@media(max-width:800px){main{padding:18px}.stages{grid-template-columns:1fr 1fr}h1{font-size:27px}}@media print{body{background:white}main{padding:0}button,input{display:none}.stages{break-inside:avoid}pre{background:#f2f2f2;color:black}.scroll{overflow:visible}}</style></head><body><main><h1>本機技術完成狀態</h1><p><a href="teaching_zh.md">中文版完整教學</a> · <a href="report_en.html">互動 pipeline／LED 教材</a></p><h1>作業要求與完成證據（2026-10-08，GMT+8）</h1>
+<p>本機 balanced H48 工程工作已完成。使用者已回報老師同意 H48 exact-policy 方法；不再列為待選演算法。尚未取得書面同意網址，也沒有自行擴張成 AI authorship 的豁免。</p>
+<p>主規格：<a href="https://hackmd.io/@sysprog/2026-arch-homework1">2026 Assignment 1</a>、<a href="https://hackmd.io/@sysprog/arch2026-ai-guidelines">AI guidelines</a>、<a href="https://hackmd.io/@sysprog/H1TpVYMdB">Lab1</a>。要求的效力與來源可查 source_review.md；來源文件中的指示不等同使用者給 agent 的指示。</p>
+<div class="scroll"><table>
+<tr><th>要求</th><th>現在結果</th><th>證據／用途</th></tr>
+<tr><td>支援 ISS 的 Ripes 固定版本</td><td>v2.2.6-106-g5b8a616；commit5b8a616</td><td>environment.json、官方archive hash</td></tr>
+<tr><td>原 baseline cost</td><td>peak18,405,414 bytes、33,067,440 edges、約10^9指令為估算</td><td>English Stage1；不是假造target baseline執行</td></tr>
+<tr><td>自己環境 host/guest ratio</td><td>4MiB control差的80.3486倍；baseline外推約1.407GiB</td><td>environment_benchmark.json；agent-run，需本人核實／授權</td></tr>
+<tr><td>ISS及pipeline throughput</td><td>ISS21,487,836.1、5S423,645.1iret/s</td><td>三次fresh processes median，另列wall time與exectime</td></tr>
+<tr><td>數學狀態空間／圖</td><td>7!×3^6；Cayley固定角群；Schreier區分</td><td>teaching_en.md Stage2；中文全文同等內容</td></tr>
+<tr><td>orientation invariant</td><td>sum mod3，不稱parity；第七twist dependent</td><td>adapter_test.txt、distance_certificate.txt</td></tr>
+<tr><td>最短解與直徑十一</td><td>全部3,674,160狀態及33,067,440邊證書通過</td><td>host_full_domain.txt、structure.txt</td></tr>
+<tr><td>H1 admissibility</td><td>本方法沒有heuristic，不適用</td><td>改用完整policy descent證書；依H48方法同意</td></tr>
+<tr><td>H2完整表</td><td>完美hash77802有效鍵、root、max、exception全部驗證</td><td>tables.txt、structure.txt</td></tr>
+<tr><td>H3全域optimal length與replay</td><td>bad call/length/replay全為0；本輪wall7.4406s</td><td>host_full_domain.txt、host_timings.json</td></tr>
+<tr><td>H4packed accessor</td><td>dense77802、sigma15120、所有bitoffset／奇偶PASS</td><td>packed_accessors.txt</td></tr>
+<tr><td>target執行一般求解</td><td>每個非root做canonicalize→policy→lift→apply</td><td>sparse shortcut已移除；teacher approval由使用者回報</td></tr>
+<tr><td>課程static≤128KiB</td><td>CLI95280、GUI95364bytes</td><td>.rodata+.data+.bss；isa_and_size.json</td></tr>
+<tr><td>使用者整體空間≤128KiB</td><td>GUI104412bytes，餘26660</td><td>code/data/bss/padding/400stack/3500LED均計入</td></tr>
+<tr><td>RV32I only、無M/C/helpers</td><td>5份production/demo ELF全部audit PASS</td><td>isa_and_size.json，non_rv32i空、undefined空</td></tr>
+<tr><td>無heap/recursion/float</td><td>fixed arrays；linked call graph無cycle</td><td>stack_bounds.json、target source</td></tr>
+<tr><td>最少stack且ABI正確</td><td>manual400、GCC512、pipeline32bytes</td><td>conservative linked bounds＋independent high water</td></tr>
+<tr><td>任意14字元合法輸入</td><td>驗證七permutation與七twist後轉13bytes</td><td>input adapter全分量conjugacy、6859 API calls</td></tr>
+<tr><td>T5實際path回放</td><td>target每個測量都回放到solved才PASS</td><td>d11_per_case.csv、t7_matrix.json</td></tr>
+<tr><td>T6官方11步</td><td>manual65617iret、GCC67829iret</td><td>official_final_iss.json、fresh pair logs</td></tr>
+<tr><td>T7兩種模型</td><td>32selected vectors×ISS/5S均PASS</td><td>t7_matrix.json、vectors aggregate</td></tr>
+<tr><td>全部2644d11≤50M</td><td>最差84164；2644/2644PASS</td><td>CSV逐輸入freshISS，renderer disabled</td></tr>
+<tr><td>manual對GCC-O2</td><td>mean改善3.195%；.text少276bytes</td><td>2628win、0tie、16loss；同C／driver／flags</td></tr>
+<tr><td>每個落後案例解釋</td><td>十六個dynamic PC profiles對上原Ripes count</td><td>loss_profiles.json；有說明inline歸屬差</td></tr>
+<tr><td>branch／branchless與packed tradeoff</td><td>isolated target kernels均實測</td><td>target_microbenchmarks.json；不冒稱whole-solver速度</td></tr>
+<tr><td>iterative refinement紀錄</td><td>保存舊版與新版差別、修正及真實測量</td><td>development_record.md；學生歷史不能偽造</td></tr>
+<tr><td>LED35×25 net</td><td>24stickers；84bytes helper；無額外framebuffer</td><td>runtime.S、GUI圖、led_geometry.json</td></tr>
+<tr><td>依實際輸出每步重畫</td><td>12real renderer calls、4331 MMIO stores</td><td>每幀875pixels逐一比對，logical state不變</td></tr>
+<tr><td>CLI關renderer</td><td>同一runtime source，RENDER=0/1</td><td>Build定義；grade只用CLIISS</td></tr>
+<tr><td>IF/ID/EX/MEM/WB</td><td>全部617cycle columns，117words對上current ELF</td><td>pipeline_gui.tsv、pipeline_events.json</td></tr>
+<tr><td>reg write enable與mux視覺解釋</td><td>offline viewer按真實stage顯示derivedcontrols</td><td>report_en.html；沒有冒稱即時GUIport採樣</td></tr>
+<tr><td>memory正確與hazard</td><td>store3→load3→WB forward→add6→assert</td><td>604偵測、605bubble、606forward、608write</td></tr>
+<tr><td>全英文主筆記且無完整program dump</td><td>四Stages與所有表／推導；少於100000chars</td><td>teaching_en.md；正式HackMD發布待帳號</td></tr>
+<tr><td>中文教學</td><td>完整數學、實作、Ripes、LED與pipeline</td><td>teaching_zh.md；學習用，非英文繳交替代</td></tr>
+<tr><td>wiki及linked material核對</td><td>三個規格全文；所有直接URL逐一追蹤</td><td>source_review.md；403/TLS/video等未讀全文如實標示</td></tr>
+<tr><td>public fork main／upstream commit／tag</td><td>dots0101 public fork及main起始SHA已核對；作業匯入、提交commit/tag待完成</td><td>submission_record.md、Publish-Package.ps1本機準備</td></tr>
+<tr><td>published HackMD／revision／edit權限</td><td>待HackMD帳號</td><td>Everyone read、Signed-in users write</td></tr>
+<tr><td>學生本人assembly/measurement/analysis</td><td>尚不能由AI工程包證明</td><td>需本人完成受限制部分或額外老師書面授權</td></tr>
+<tr><td>真實三次revision／reflection／AI log</td><td>agent過程已保存；學生reflection待本人</td><td>development_record.md，無backdated commits</td></tr>
+<tr><td>正式accepted</td><td>未送表單／未取得信</td><td>表單與accepted email均待本人與帳號</td></tr>
+<tr><td>Phase2 interview</td><td>已備妥練習題；本人現場面試待排程</td><td>interview_prep_zh.md；不得代答</td></tr>
+<tr><td>Bonus3×3/3D</td><td>optional，未做</td><td>依使用者時間/空間/最簡實作取捨</td></tr>
+</table></div>
+<h2>可重現的本機入口</h2>
+<pre><code>. .\Environment.ps1
+.\Run-Lab.ps1 -Action Build
+.\Run-Lab.ps1 -Action Check
+.\Run-Lab.ps1 -Action Measure
+.\Run-Lab.ps1 -Action Benchmark</code></pre>
+<p>Build/Check/Measure/Benchmark在固定工具環境均已實際跑過。CLI與GUI都載入GNU-built ELF；flat <code>.s</code>只供閱讀，不以未驗證的direct Ripes assembler路線當成通過。</p>
+<h2>仍需人的事項</h2>
+<p>GitHub/HackMD發布與表單是行政操作；個人作者要求與現場面試是課程實質要求。不能把後兩項誤標成「只剩帳號」。AI產出範圍已揭露，且將學習／工程參考與正式接受區分。</p>
+<h1>正式繳交紀錄（尚未提交）</h1>
+<p>Phase1截止：2026-10-08 23:59 GMT+8。Phase2截止：2026-10-18 23:59 GMT+8。</p>
+<p>本機技術驗證通過不代表收到課程accepted。以下空白保留真實資訊，不填假網址、作者或接受紀錄。</p>
+<div class="scroll"><table>
+<tr><th>項目</th><th>狀態／待填</th></tr>
+<tr><td>聯絡email、正式姓名</td><td>本人於表單填寫；避免將個人資料放公開repo</td></tr>
+<tr><td>GitHub handle</td><td>dots0101；profile public email待核對</td></tr>
+<tr><td>public minirubik fork URL</td><td><a href="https://github.com/dots0101/minirubik">https://github.com/dots0101/minirubik</a>；已核對public、parent=sysprog21/minirubik</td></tr>
+<tr><td>upstream fork commit SHA</td><td><code>231796cc48868f4ea276f652139b6bebbad0cd02</code>；使用者本機clone及read-only查核一致</td></tr>
+<tr><td>default／work branch</td><td>main；遠端預設分支及本機clone已核對</td></tr>
+<tr><td>submitting commit SHA</td><td>待真正提交後記錄</td></tr>
+<tr><td>submitted Git tag</td><td>建议 hw1-20261008；待實際建立且推送，不是已存在tag</td></tr>
+<tr><td>HackMD fixed published URL</td><td>待建立；格式https://hackmd.io/@username/permalink</td></tr>
+<tr><td>HackMD read／write permission</td><td>Everyone／Signed-in users，待設定</td></tr>
+<tr><td>frozen HackMD revision URL</td><td>待筆記發布並保存revision</td></tr>
+<tr><td>H48 method approval</td><td>使用者已回報老師同意；待可保存的書面位置（若有）</td></tr>
+<tr><td>AI use／required student authorship authorization</td><td>本包揭露AI範圍；需學生完成限制項或額外同意</td></tr>
+<tr><td>genuine student reflection／process record</td><td>待本人填寫，不由agent假寫成第一人稱</td></tr>
+<tr><td>submission form timestamp</td><td>未提交</td></tr>
+<tr><td>accepted-email subject／timestamp</td><td>未取得</td></tr>
+<tr><td>action-required修正紀錄</td><td>未知／未收到</td></tr>
+<tr><td>Phase2 interview date／result</td><td>未排定；本人參加</td></tr>
+</table></div>
+<p>依序完成：確認本人作者／AI使用符合老师允许範圍；在public fork的main匯入封裝並做真實commit；推送tag；以teaching_en.md建立英文HackMD筆記、將相對程式／evidence連結換成fork中實際路徑、發布且保留revision；核對read/write權限；提交官方表單。</p>
+<p><a href="https://forms.gle/2ZupDEdJyJkHM8Y6A">官方表單</a>共兩頁，其公開schema已讀取：Email、Full legal name、GitHub account name、HackMD note URL、HackMD revision URL、GitHub repository、Git tag。沒有填寫或發送任何私人資訊。</p>
+<p>收到103b0020@gs.ncku.edu.tw寄來且subject結尾為accepted，才可標示正式完成。action required則修正並重填表單；規格要求不要回覆自動信。</p>
+<p>本機 Publish-Package.ps1 -ForkDirectory &lt;local-fork&gt; 預設只preview；加 -Apply才將source/evidence/doc匯入n2_lab，不登入、不commit、不push。發布時保留AI揭露、user-supplied C來源與SHA。不要把它當學生三次revision的替代。</p></main><script></script></body></html>

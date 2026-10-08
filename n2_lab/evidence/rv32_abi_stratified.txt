@@ -1,0 +1,1 @@
+cases=1281 bad=0 avg=33477.397346 min=85 max=67622 max_state=1 max_stack=368

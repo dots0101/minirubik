@@ -1,0 +1,6 @@
+rep=0 lookups=16000000 packed_seconds=0.016000 byte_seconds=0.015000 checksum=43670905
+rep=1 lookups=16000000 packed_seconds=0.017000 byte_seconds=0.015000 checksum=43670905
+rep=2 lookups=16000000 packed_seconds=0.016000 byte_seconds=0.015000 checksum=43670905
+rep=3 lookups=16000000 packed_seconds=0.017000 byte_seconds=0.015000 checksum=43670905
+rep=4 lookups=16000000 packed_seconds=0.016000 byte_seconds=0.014000 checksum=43670905
+PASS entries=77802 packed_bytes=38901 unpacked_bytes=77802 added_target_static_bytes=38901

@@ -1,0 +1,17 @@
+{
+  "# instructions retired": 67830,
+  "CPI": 1.1929824561403508,
+  "cycles": 80920,
+  "execution time (ms)": 156,
+  "runinfo": {
+    "ISA extensions": [],
+    "processor": "RV32_5S",
+    "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_11.elf"
+  },
+  "wall_seconds": 0.23057239991612732,
+  "source_type": "elf",
+  "model": "RV32_5S",
+  "process_returncode": 0,
+  "program_exit_code": 0,
+  "pass_cases": 1
+}

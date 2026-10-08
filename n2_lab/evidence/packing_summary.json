@@ -1,0 +1,42 @@
+{
+  "scope": "Host-only microbenchmark; clock() timer; not Ripes whole-solver performance",
+  "rows": [
+    {
+      "rep": 0,
+      "lookups": 16000000,
+      "packed_seconds": 0.016,
+      "byte_seconds": 0.015,
+      "checksum": 43670905
+    },
+    {
+      "rep": 1,
+      "lookups": 16000000,
+      "packed_seconds": 0.017,
+      "byte_seconds": 0.015,
+      "checksum": 43670905
+    },
+    {
+      "rep": 2,
+      "lookups": 16000000,
+      "packed_seconds": 0.016,
+      "byte_seconds": 0.015,
+      "checksum": 43670905
+    },
+    {
+      "rep": 3,
+      "lookups": 16000000,
+      "packed_seconds": 0.017,
+      "byte_seconds": 0.015,
+      "checksum": 43670905
+    },
+    {
+      "rep": 4,
+      "lookups": 16000000,
+      "packed_seconds": 0.016,
+      "byte_seconds": 0.014,
+      "checksum": 43670905
+    }
+  ],
+  "packed_median_seconds": 0.016,
+  "byte_median_seconds": 0.015
+}

@@ -1,0 +1,287 @@
+{
+  "scope": "Unknown EXPECTED=255 on two implementations and two models; oracle lengths shown for context. Driver checks replay and <=11, not equality to an unknown distance.",
+  "records": [
+    {
+      "implementation": "solver_cli",
+      "input": "12345671111111",
+      "oracle_depth": 0,
+      "expected_byte": 255,
+      "source_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 503,
+      "CPI": 1,
+      "cycles": 503,
+      "execution time (ms)": 1,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_solver_cli_0.elf"
+      },
+      "wall_seconds": 0.08487929997500032,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "solver_cli",
+      "input": "12345671111111",
+      "oracle_depth": 0,
+      "expected_byte": 255,
+      "source_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 502,
+      "CPI": 1.3187250996015936,
+      "cycles": 662,
+      "execution time (ms)": 2,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_solver_cli_0.elf"
+      },
+      "wall_seconds": 0.08028870006091893,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "solver_cli",
+      "input": "12345673132121",
+      "oracle_depth": 6,
+      "expected_byte": 255,
+      "source_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 42369,
+      "CPI": 1,
+      "cycles": 42369,
+      "execution time (ms)": 3,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_solver_cli_6.elf"
+      },
+      "wall_seconds": 0.08320000011008233,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "solver_cli",
+      "input": "12345673132121",
+      "oracle_depth": 6,
+      "expected_byte": 255,
+      "source_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 42368,
+      "CPI": 1.2744760196374623,
+      "cycles": 53997,
+      "execution time (ms)": 104,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_solver_cli_6.elf"
+      },
+      "wall_seconds": 0.18220979999750853,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "solver_cli",
+      "input": "21345671111111",
+      "oracle_depth": 11,
+      "expected_byte": 255,
+      "source_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 65619,
+      "CPI": 1,
+      "cycles": 65619,
+      "execution time (ms)": 4,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_solver_cli_11.elf"
+      },
+      "wall_seconds": 0.08296879997942597,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "solver_cli",
+      "input": "21345671111111",
+      "oracle_depth": 11,
+      "expected_byte": 255,
+      "source_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 65618,
+      "CPI": 1.2770733640159713,
+      "cycles": 83799,
+      "execution time (ms)": 159,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_solver_cli_11.elf"
+      },
+      "wall_seconds": 0.23234139999840409,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "input": "12345671111111",
+      "oracle_depth": 0,
+      "expected_byte": 255,
+      "source_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 480,
+      "CPI": 1,
+      "cycles": 480,
+      "execution time (ms)": 2,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_0.elf"
+      },
+      "wall_seconds": 0.08383080002386123,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "input": "12345671111111",
+      "oracle_depth": 0,
+      "expected_byte": 255,
+      "source_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 479,
+      "CPI": 1.3089770354906054,
+      "cycles": 627,
+      "execution time (ms)": 2,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_0.elf"
+      },
+      "wall_seconds": 0.0757739000255242,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "input": "12345673132121",
+      "oracle_depth": 6,
+      "expected_byte": 255,
+      "source_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 43197,
+      "CPI": 1,
+      "cycles": 43197,
+      "execution time (ms)": 4,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_6.elf"
+      },
+      "wall_seconds": 0.08607319998554885,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "input": "12345673132121",
+      "oracle_depth": 6,
+      "expected_byte": 255,
+      "source_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 43196,
+      "CPI": 1.1843226224650432,
+      "cycles": 51158,
+      "execution time (ms)": 97,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_6.elf"
+      },
+      "wall_seconds": 0.1709934000391513,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "input": "21345671111111",
+      "oracle_depth": 11,
+      "expected_byte": 255,
+      "source_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 67831,
+      "CPI": 1,
+      "cycles": 67831,
+      "execution time (ms)": 4,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_11.elf"
+      },
+      "wall_seconds": 0.09127249999437481,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "input": "21345671111111",
+      "oracle_depth": 11,
+      "expected_byte": 255,
+      "source_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 67830,
+      "CPI": 1.1929824561403508,
+      "cycles": 80920,
+      "execution time (ms)": 156,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\unknown_gcc_reference_11.elf"
+      },
+      "wall_seconds": 0.23057239991612732,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    }
+  ],
+  "renderer_cli_check": {
+    "scope": "ELF renderer writes are executed by CLI RAM; no GUI peripheral is instantiated.",
+    "# instructions retired": 89444,
+    "CPI": 1.2660994588792989,
+    "cycles": 113245,
+    "execution time (ms)": 231,
+    "runinfo": {
+      "ISA extensions": [],
+      "processor": "RV32_5S",
+      "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\solver_gui.elf"
+    },
+    "wall_seconds": 0.3071011999854818,
+    "source_type": "elf",
+    "model": "RV32_5S",
+    "process_returncode": 0,
+    "program_exit_code": 0,
+    "pass_cases": 1
+  }
+}

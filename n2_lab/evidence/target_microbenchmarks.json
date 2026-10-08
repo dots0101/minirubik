@@ -1,0 +1,93 @@
+{
+  "mod3_branch": {
+    "sections": {
+      ".text": 104,
+      "static_data": 0,
+      "allocated_image_bytes": 104,
+      "section_bytes": 104,
+      "alignment_gap_bytes": 0,
+      "course_static_data": 0
+    },
+    "models": {
+      "RV32_ISS": {
+        "# instructions retired": 54009,
+        "cycles": 54009,
+        "program_exit_code": 0
+      },
+      "RV32_5S": {
+        "# instructions retired": 54008,
+        "cycles": 78014,
+        "program_exit_code": 0
+      }
+    }
+  },
+  "mod3_branchless": {
+    "sections": {
+      ".text": 104,
+      "static_data": 0,
+      "allocated_image_bytes": 104,
+      "section_bytes": 104,
+      "alignment_gap_bytes": 0,
+      "course_static_data": 0
+    },
+    "models": {
+      "RV32_ISS": {
+        "# instructions retired": 57009,
+        "cycles": 57009,
+        "program_exit_code": 0
+      },
+      "RV32_5S": {
+        "# instructions retired": 57008,
+        "cycles": 75014,
+        "program_exit_code": 0
+      }
+    }
+  },
+  "dense_packed": {
+    "sections": {
+      ".text": 104,
+      ".rodata": 38901,
+      "static_data": 38901,
+      "allocated_image_bytes": 39005,
+      "section_bytes": 39005,
+      "alignment_gap_bytes": 0,
+      "course_static_data": 38901
+    },
+    "models": {
+      "RV32_ISS": {
+        "# instructions retired": 1011437,
+        "cycles": 1011437,
+        "program_exit_code": 0
+      },
+      "RV32_5S": {
+        "# instructions retired": 1011436,
+        "cycles": 1167044,
+        "program_exit_code": 0
+      }
+    }
+  },
+  "dense_byte": {
+    "sections": {
+      ".text": 88,
+      ".rodata": 77802,
+      "static_data": 77802,
+      "allocated_image_bytes": 77890,
+      "section_bytes": 77890,
+      "alignment_gap_bytes": 0,
+      "course_static_data": 77802
+    },
+    "models": {
+      "RV32_ISS": {
+        "# instructions retired": 700229,
+        "cycles": 700229,
+        "program_exit_code": 0
+      },
+      "RV32_5S": {
+        "# instructions retired": 700228,
+        "cycles": 933638,
+        "program_exit_code": 0
+      }
+    }
+  },
+  "scope": "Isolated kernels including a shared driver and checksum assertion. Every value 0..4 repeats 1000 times for mod3; every dense entry is read once for packing. These are not whole-solver speed claims. No kernel or byte-expanded table is linked into solver_cli or solver_gui."
+}

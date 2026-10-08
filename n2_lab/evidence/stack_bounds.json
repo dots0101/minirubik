@@ -1,0 +1,444 @@
+{
+  "solver_cli": {
+    "conservative_call_graph_bound": 400,
+    "reserved_bytes": 400,
+    "deepest_path": [
+      "__image_start",
+      "solve_and_replay",
+      "n2_solve",
+      "h48_canonicalize",
+      "quotient_rank_from_meta",
+      "mask_rank",
+      "popcount32"
+    ],
+    "functions": {
+      "__image_start": {
+        "frame": 0,
+        "calls": [
+          "parse_upstream",
+          "solve_and_replay"
+        ]
+      },
+      "test_error": {
+        "frame": 0,
+        "calls": []
+      },
+      "input_error": {
+        "frame": 0,
+        "calls": []
+      },
+      "parse_upstream": {
+        "frame": 0,
+        "calls": []
+      },
+      "solve_and_replay": {
+        "frame": 32,
+        "calls": [
+          "n2_solve",
+          "n2_apply_move",
+          "n2_is_solved"
+        ]
+      },
+      "perm_rank7": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_is_solved": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_state_valid": {
+        "frame": 32,
+        "calls": [
+          "expand_public"
+        ]
+      },
+      "expand_public": {
+        "frame": 0,
+        "calls": []
+      },
+      "work_copy": {
+        "frame": 0,
+        "calls": []
+      },
+      "state_move": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_apply_move": {
+        "frame": 32,
+        "calls": [
+          "expand_public"
+        ]
+      },
+      "ori_rank_after_sym": {
+        "frame": 0,
+        "calls": []
+      },
+      "symmetry_apply": {
+        "frame": 0,
+        "calls": []
+      },
+      "compact_T": {
+        "frame": 48,
+        "calls": []
+      },
+      "popcount32": {
+        "frame": 0,
+        "calls": []
+      },
+      "mask_rank": {
+        "frame": 32,
+        "calls": [
+          "popcount32"
+        ]
+      },
+      "quotient_rank_from_meta": {
+        "frame": 64,
+        "calls": [
+          "ori_rank_after_sym",
+          "symmetry_apply",
+          "mask_rank"
+        ]
+      },
+      "h48_canonicalize": {
+        "frame": 192,
+        "calls": [
+          "work_copy",
+          "compact_T",
+          "symmetry_apply",
+          "perm_rank7",
+          "quotient_rank_from_meta"
+        ]
+      },
+      "t_sigma_code": {
+        "frame": 16,
+        "calls": [
+          "perm_rank7"
+        ]
+      },
+      "lift_policy_move": {
+        "frame": 80,
+        "calls": [
+          "t_sigma_code",
+          "compact_T",
+          "symmetry_apply"
+        ]
+      },
+      "policy_lookup": {
+        "frame": 32,
+        "calls": [
+          "popcount32"
+        ]
+      },
+      "work_solved": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_solve": {
+        "frame": 80,
+        "calls": [
+          "expand_public",
+          "perm_rank7",
+          "work_solved",
+          "h48_canonicalize",
+          "policy_lookup",
+          "lift_policy_move",
+          "state_move",
+          "work_copy"
+        ]
+      }
+    },
+    "scope": "Fixed frame direct-call DAG; no recursion or variable frames. All branch paths conservatively included."
+  },
+  "solver_gui": {
+    "conservative_call_graph_bound": 400,
+    "reserved_bytes": 400,
+    "deepest_path": [
+      "__image_start",
+      "solve_and_replay",
+      "n2_solve",
+      "h48_canonicalize",
+      "quotient_rank_from_meta",
+      "mask_rank",
+      "popcount32"
+    ],
+    "functions": {
+      "__image_start": {
+        "frame": 0,
+        "calls": [
+          "led_clear",
+          "parse_upstream",
+          "solve_and_replay"
+        ]
+      },
+      "test_error": {
+        "frame": 0,
+        "calls": []
+      },
+      "input_error": {
+        "frame": 0,
+        "calls": []
+      },
+      "parse_upstream": {
+        "frame": 0,
+        "calls": []
+      },
+      "solve_and_replay": {
+        "frame": 32,
+        "calls": [
+          "n2_solve",
+          "render_cube",
+          "n2_apply_move",
+          "n2_is_solved"
+        ]
+      },
+      "led_clear": {
+        "frame": 0,
+        "calls": []
+      },
+      "render_cube": {
+        "frame": 0,
+        "calls": []
+      },
+      "perm_rank7": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_is_solved": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_state_valid": {
+        "frame": 32,
+        "calls": [
+          "expand_public"
+        ]
+      },
+      "expand_public": {
+        "frame": 0,
+        "calls": []
+      },
+      "work_copy": {
+        "frame": 0,
+        "calls": []
+      },
+      "state_move": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_apply_move": {
+        "frame": 32,
+        "calls": [
+          "expand_public"
+        ]
+      },
+      "ori_rank_after_sym": {
+        "frame": 0,
+        "calls": []
+      },
+      "symmetry_apply": {
+        "frame": 0,
+        "calls": []
+      },
+      "compact_T": {
+        "frame": 48,
+        "calls": []
+      },
+      "popcount32": {
+        "frame": 0,
+        "calls": []
+      },
+      "mask_rank": {
+        "frame": 32,
+        "calls": [
+          "popcount32"
+        ]
+      },
+      "quotient_rank_from_meta": {
+        "frame": 64,
+        "calls": [
+          "ori_rank_after_sym",
+          "symmetry_apply",
+          "mask_rank"
+        ]
+      },
+      "h48_canonicalize": {
+        "frame": 192,
+        "calls": [
+          "work_copy",
+          "compact_T",
+          "symmetry_apply",
+          "perm_rank7",
+          "quotient_rank_from_meta"
+        ]
+      },
+      "t_sigma_code": {
+        "frame": 16,
+        "calls": [
+          "perm_rank7"
+        ]
+      },
+      "lift_policy_move": {
+        "frame": 80,
+        "calls": [
+          "t_sigma_code",
+          "compact_T",
+          "symmetry_apply"
+        ]
+      },
+      "policy_lookup": {
+        "frame": 32,
+        "calls": [
+          "popcount32"
+        ]
+      },
+      "work_solved": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_solve": {
+        "frame": 80,
+        "calls": [
+          "expand_public",
+          "perm_rank7",
+          "work_solved",
+          "h48_canonicalize",
+          "policy_lookup",
+          "lift_policy_move",
+          "state_move",
+          "work_copy"
+        ]
+      }
+    },
+    "scope": "Fixed frame direct-call DAG; no recursion or variable frames. All branch paths conservatively included."
+  },
+  "gcc_reference": {
+    "conservative_call_graph_bound": 512,
+    "reserved_bytes": 512,
+    "deepest_path": [
+      "__image_start",
+      "solve_and_replay",
+      "n2_solve",
+      "h48_canonicalize",
+      "compact_T"
+    ],
+    "functions": {
+      "__image_start": {
+        "frame": 0,
+        "calls": [
+          "parse_upstream",
+          "solve_and_replay"
+        ]
+      },
+      "test_error": {
+        "frame": 0,
+        "calls": []
+      },
+      "input_error": {
+        "frame": 0,
+        "calls": []
+      },
+      "parse_upstream": {
+        "frame": 0,
+        "calls": []
+      },
+      "solve_and_replay": {
+        "frame": 32,
+        "calls": [
+          "n2_solve",
+          "n2_apply_move",
+          "n2_is_solved"
+        ]
+      },
+      "expand_public": {
+        "frame": 0,
+        "calls": []
+      },
+      "perm_rank7": {
+        "frame": 0,
+        "calls": []
+      },
+      "ori_rank_after_sym": {
+        "frame": 0,
+        "calls": []
+      },
+      "symmetry_apply": {
+        "frame": 0,
+        "calls": []
+      },
+      "compact_T": {
+        "frame": 16,
+        "calls": []
+      },
+      "h48_canonicalize": {
+        "frame": 272,
+        "calls": [
+          "compact_T",
+          "symmetry_apply",
+          "perm_rank7",
+          "ori_rank_after_sym"
+        ]
+      },
+      "n2_state_valid": {
+        "frame": 32,
+        "calls": [
+          "expand_public"
+        ]
+      },
+      "n2_is_solved": {
+        "frame": 0,
+        "calls": []
+      },
+      "n2_apply_move": {
+        "frame": 48,
+        "calls": [
+          "expand_public"
+        ]
+      },
+      "n2_solve": {
+        "frame": 192,
+        "calls": [
+          "expand_public",
+          "perm_rank7",
+          "h48_canonicalize",
+          "symmetry_apply",
+          "compact_T"
+        ]
+      }
+    },
+    "scope": "Fixed frame direct-call DAG; no recursion or variable frames. All branch paths conservatively included."
+  },
+  "pipeline_demo": {
+    "conservative_call_graph_bound": 32,
+    "reserved_bytes": 32,
+    "deepest_path": [
+      "__image_start",
+      "policy_lookup",
+      "popcount32"
+    ],
+    "functions": {
+      "__image_start": {
+        "frame": 0,
+        "calls": [
+          "policy_lookup"
+        ]
+      },
+      "fail": {
+        "frame": 0,
+        "calls": []
+      },
+      "policy_lookup": {
+        "frame": 32,
+        "calls": [
+          "popcount32"
+        ]
+      },
+      "popcount32": {
+        "frame": 0,
+        "calls": []
+      }
+    },
+    "scope": "Fixed frame direct-call DAG; no recursion or variable frames. All branch paths conservatively included."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "scope": "Frozen binary/evidence consistency, complete-space contract, teaching counts, local links, Python syntax, offline HTML structure; no publication or native UI refresh.",
+  "production_elfs": 5,
+  "deepest_paired_inputs": 2644,
+  "unknown_distance_runs": 12,
+  "two_model_cases": 64,
+  "html_javascript_check": "Node VM, not visual QA",
+  "local_links_checked": 96,
+  "documentation_counts": {
+    "teaching_en.md": {
+      "characters_lf": 79409,
+      "characters_crlf": 80674,
+      "utf8_bytes": 79521
+    },
+    "original_english_notes.md": {
+      "characters_lf": 79409,
+      "characters_crlf": 80674,
+      "utf8_bytes": 79521
+    },
+    "teaching_zh.md": {
+      "characters_lf": 40071,
+      "characters_crlf": 41276,
+      "utf8_bytes": 61924
+    },
+    "original_chinese_notes.md": {
+      "characters_lf": 40071,
+      "characters_crlf": 41276,
+      "utf8_bytes": 61924
+    }
+  },
+  "gui_total_bytes": 104412,
+  "gui_headroom_bytes": 26660,
+  "worst_iss_retired": 84164,
+  "personal_or_external_steps": [
+    "Student authorship/reflection or additional instructor authorization under course AI policy",
+    "Actual public GitHub fork/main/commit/tag",
+    "Actual published HackMD note and frozen revision",
+    "Form with personal fields and accepted email",
+    "Student live interview"
+  ]
+}

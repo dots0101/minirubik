@@ -1,0 +1,1 @@
+PASS RV32 ABI API calls=6859 invalid_states=3303 invalid_moves=247 null_solve_arguments=3 stats_alignment=2 callee_saved=PASS

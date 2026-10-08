@@ -1,0 +1,80 @@
+distance_certificate vertices=3674160 directed_edges=33067440 zero_count=1 PASS
+generators S1^2=S3^3=T^2=id root_fixed legal_images edge_checks=99202320 PASS
+exact_generated_group_order=48 PASS
+runtime_coset_words 8x6 distinct exact full-domain maps PASS
+S3_group_IDs 0 1 6 2 7 4
+group_transitions rows: id word S1_left S3_left T_left
+0 I 1 2 3
+1 A 0 4 5
+2 B 6 7 8
+3 T 9 10 0
+4 AB 7 6 11
+5 AT 12 13 1
+6 BA 2 1 14
+7 BB 4 0 15
+8 BT 16 17 2
+9 TA 3 18 19
+10 TB 14 20 21
+11 ABT 17 16 4
+12 ATA 5 22 23
+13 ATB 15 24 25
+14 BAT 10 9 6
+15 BBT 13 12 7
+16 BTA 8 26 27
+17 BTB 11 28 29
+18 TAB 20 14 30
+19 TAT 23 31 9
+20 TBB 18 3 32
+21 TBT 27 33 10
+22 ATAB 24 15 34
+23 ATAT 19 35 12
+24 ATBB 22 5 36
+25 ATBT 29 37 13
+26 BTAB 28 11 38
+27 BTAT 21 39 16
+28 BTBB 26 8 40
+29 BTBT 25 41 17
+30 TABT 33 27 18
+31 TATB 32 36 42
+32 TBBT 31 23 20
+33 TBTB 30 40 43
+34 ATABT 37 29 22
+35 ATATB 36 32 44
+36 ATBBT 35 19 24
+37 ATBTB 34 38 45
+38 BTABT 41 25 26
+39 BTATB 40 30 46
+40 BTBBT 39 21 28
+41 BTBTB 38 34 47
+42 TATBT 43 45 31
+43 TBTBT 42 47 33
+44 ATATBT 45 43 35
+45 ATBTBT 44 46 37
+46 BTATBT 47 42 39
+47 BTBTBT 46 44 41
+orbits=77802 burnside_fixsum=3734496 fixsum_div_48=77802
+shell 0 states=1 orbits=1
+shell 1 states=9 orbits=2
+shell 2 states=54 orbits=5
+shell 3 states=321 orbits=19
+shell 4 states=1847 orbits=68
+shell 5 states=9992 orbits=271
+shell 6 states=50136 orbits=1148
+shell 7 states=227536 orbits=4915
+shell 8 states=870072 orbits=18364
+shell 9 states=1887748 orbits=39707
+shell 10 states=623800 orbits=13225
+shell 11 states=2644 orbits=77
+orbit_size 1 count=1
+orbit_size 2 count=1
+orbit_size 3 count=3
+orbit_size 4 count=1
+orbit_size 6 count=14
+orbit_size 8 count=15
+orbit_size 12 count=135
+orbit_size 16 count=32
+orbit_size 24 count=2208
+orbit_size 48 count=75392
+canonical_keys=77802 exact_orbit_equivalence=PASS lifted_policy_descent=3674159 PASS
+state_dependent_T_witness dense0=0 code0=0 dense1=1 code1=3
+ALL_STRUCTURAL_CHECKS_PASS

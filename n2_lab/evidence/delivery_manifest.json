@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-08",
+  "title": "Balanced H48 complete local engineering delivery",
+  "source_archive_sha256": "7f3b4717a6be003a3b7b0641ec17ed4d606173bc1ab6b37b2441440f01309520",
+  "reference_c_sha256": "8d356669f07a7d872f7a9a22322db60fc2630bd075fe41297842356df5bc67cc",
+  "elf_sha256": {
+    "solver_cli": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+    "gcc_reference": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+    "solver_gui": "cacbd1b821206ad7146d6cf07270ea1409381a2dd1915688ceab6b1e28b16926",
+    "vectors": "1fb6f3cecefa85831177cf2251693e520cc94dc2cdc1bb4c2f23349332c5681e",
+    "pipeline_demo": "02d9c91da5b979d287dfbb019c6bbe32fdb989f1581f10485f45107bca51a976"
+  },
+  "guest_gui_bytes": 104412,
+  "worst_d11_retired": 84164,
+  "english_characters_crlf": 80674,
+  "tests": "PASS; see delivery_audit.json and individual raw evidence",
+  "formal_submission": "NOT SUBMITTED / no accepted email",
+  "method_approval": "User reports instructor approval of H48; not treated as an AI authorship exemption",
+  "human_or_external_steps": [
+    "Student authorship/reflection or additional instructor authorization under course AI policy",
+    "Actual public GitHub fork/main/commit/tag",
+    "Actual published HackMD note and frozen revision",
+    "Form with personal fields and accepted email",
+    "Student live interview"
+  ],
+  "gui_refresh": "Native refresh rejected after earlier Escape stop; existing genuine GUI images/trace plus current CLI and independent renderer/word checks retained",
+  "archive_exclusions": [
+    "Local toolchain installations (pinned portable Ripes archive included)",
+    "Python caches",
+    "Host test executables and scratch patched ELF copies",
+    "Example HackMD link-conversion note"
+  ],
+  "reproducibility": "Prebuilt ELF + pinned Ripes ZIP for demonstration; sources and scripts for rebuilding and checking. See docs/delivery_zh.md."
+}

@@ -1,0 +1,8 @@
+#include "n2_solver.h"
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+static void unrank_perm7(uint16_t r,uint8_t p[7]){int d[7]={0},i,j,n=7;uint8_t a[7]={0,1,2,3,4,5,6};for(i=5;i>=0;i--){int b=7-i;d[i]=r%b;r/=b;}for(i=0;i<6;i++){p[i]=a[d[i]];for(j=d[i];j<n-1;j++)a[j]=a[j+1];n--;}p[6]=a[0];}
+static void from_dense(uint32_t v,N2State*s){uint16_t pr=(uint16_t)(v/729u),or=(uint16_t)(v%729u);unrank_perm7(pr,s->perm);for(int i=5;i>=0;i--){s->twist[i]=(uint8_t)(or%3u);or/=3u;}}
+int main(int argc,char**argv){if(argc!=4){fprintf(stderr,"usage: %s start end dist.bin\n",argv[0]);return 2;}uint32_t start=(uint32_t)strtoul(argv[1],0,10),end=(uint32_t)strtoul(argv[2],0,10);FILE*f=fopen(argv[3],"rb");if(!f)return 3;uint8_t*dist=(uint8_t*)malloc(3674160u);if(fread(dist,1,3674160u,f)!=3674160u)return 4;fclose(f);uint64_t badlen=0,badsolve=0,badcall=0,sumtr=0;uint32_t maxtr=0;for(uint32_t v=start;v<end;v++){N2State s,t;uint8_t out[N2_MAX_DEPTH],n=0;N2Stats st={0};from_dense(v,&s);t=s;if(!n2_solve(&s,out,&n,&st)){badcall++;continue;}if(n!=dist[v])badlen++;for(uint8_t i=0;i<n;i++)if(!n2_apply_move(&t,out[i])){badsolve++;break;}if(!n2_is_solved(&t))badsolve++;sumtr+=st.search_nodes;if(st.search_nodes>maxtr)maxtr=st.search_nodes;if(((v-start)&131071u)==0)fprintf(stderr,"%u/%u bad=%llu/%llu/%llu\n",v,end,(unsigned long long)badcall,(unsigned long long)badlen,(unsigned long long)badsolve);}printf("range=%u:%u count=%u badcall=%llu badlen=%llu badsolve=%llu avg_lift=%.6f max_lift=%u\n",start,end,end-start,(unsigned long long)badcall,(unsigned long long)badlen,(unsigned long long)badsolve,(double)sumtr/(double)(end-start),maxtr);return (badcall||badlen||badsolve)?1:0;}

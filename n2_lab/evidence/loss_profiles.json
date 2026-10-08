@@ -1,0 +1,873 @@
+{
+  "scope": "Explain all manual losses with independent dynamic-PC counts.\n\nTotals must agree with each actual Ripes ISS run. Function attribution is by\nlinked symbol interval, not a claim that the two compilers inline alike.\n",
+  "source_sha256": {
+    "solver_cli": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+    "gcc_reference": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11"
+  },
+  "cases": [
+    {
+      "dense": 135614,
+      "input": "74165233131113",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82577,
+          "decoded_execution_count": 82576,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1823,
+            "perm_rank7": 6076,
+            "work_solved": 137,
+            "h48_canonicalize": 3365,
+            "work_copy": 198,
+            "compact_T": 26942,
+            "symmetry_apply": 15136,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1072,
+            "state_move": 1521,
+            "t_sigma_code": 420,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82490,
+          "decoded_execution_count": 82489,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5164,
+            "expand_public": 1738,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11348,
+            "compact_T": 22893,
+            "symmetry_apply": 13640,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2324,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 87
+    },
+    {
+      "dense": 135705,
+      "input": "74165231212121",
+      "implementations": {
+        "solver_cli": {
+          "iret": 83974,
+          "decoded_execution_count": 83973,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1814,
+            "perm_rank7": 6262,
+            "work_solved": 137,
+            "h48_canonicalize": 3371,
+            "work_copy": 198,
+            "compact_T": 27455,
+            "symmetry_apply": 15480,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1233,
+            "t_sigma_code": 626,
+            "state_move": 1520,
+            "n2_apply_move": 1626,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 83952,
+          "decoded_execution_count": 83951,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 5472,
+            "expand_public": 1720,
+            "perm_rank7": 14746,
+            "h48_canonicalize": 11349,
+            "compact_T": 23319,
+            "symmetry_apply": 13950,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2323,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 22
+    },
+    {
+      "dense": 136082,
+      "input": "74165231131313",
+      "implementations": {
+        "solver_cli": {
+          "iret": 83300,
+          "decoded_execution_count": 83299,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1821,
+            "perm_rank7": 6076,
+            "work_solved": 129,
+            "h48_canonicalize": 3373,
+            "work_copy": 198,
+            "compact_T": 27162,
+            "symmetry_apply": 15480,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1142,
+            "t_sigma_code": 515,
+            "state_move": 1521,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 83103,
+          "decoded_execution_count": 83102,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5283,
+            "expand_public": 1734,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11364,
+            "compact_T": 23065,
+            "symmetry_apply": 13950,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2324,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 197
+    },
+    {
+      "dense": 136098,
+      "input": "74165233111313",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82402,
+          "decoded_execution_count": 82401,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1823,
+            "perm_rank7": 6076,
+            "work_solved": 129,
+            "h48_canonicalize": 3365,
+            "work_copy": 198,
+            "compact_T": 27153,
+            "symmetry_apply": 14792,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1002,
+            "t_sigma_code": 460,
+            "state_move": 1521,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82333,
+          "decoded_execution_count": 82332,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5137,
+            "expand_public": 1738,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11355,
+            "compact_T": 23066,
+            "symmetry_apply": 13330,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2324,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 69
+    },
+    {
+      "dense": 136100,
+      "input": "74165233131311",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82793,
+          "decoded_execution_count": 82792,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1815,
+            "perm_rank7": 6076,
+            "work_solved": 129,
+            "h48_canonicalize": 3369,
+            "work_copy": 198,
+            "compact_T": 27116,
+            "symmetry_apply": 15136,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1072,
+            "t_sigma_code": 485,
+            "state_move": 1517,
+            "n2_apply_move": 1626,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82669,
+          "decoded_execution_count": 82668,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5208,
+            "expand_public": 1722,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11360,
+            "compact_T": 23036,
+            "symmetry_apply": 13640,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2320,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 124
+    },
+    {
+      "dense": 136103,
+      "input": "74165233131323",
+      "implementations": {
+        "solver_cli": {
+          "iret": 80445,
+          "decoded_execution_count": 80444,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 256,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1816,
+            "perm_rank7": 5890,
+            "work_solved": 129,
+            "h48_canonicalize": 3366,
+            "work_copy": 198,
+            "compact_T": 25637,
+            "symmetry_apply": 14792,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 872,
+            "t_sigma_code": 334,
+            "state_move": 1524,
+            "n2_apply_move": 1631,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 80406,
+          "decoded_execution_count": 80405,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 256,
+            "solve_and_replay": 323,
+            "n2_solve": 4939,
+            "expand_public": 1724,
+            "perm_rank7": 13870,
+            "h48_canonicalize": 11354,
+            "compact_T": 21785,
+            "symmetry_apply": 13330,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2327,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 39
+    },
+    {
+      "dense": 136127,
+      "input": "74165233132313",
+      "implementations": {
+        "solver_cli": {
+          "iret": 80739,
+          "decoded_execution_count": 80738,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 256,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1821,
+            "perm_rank7": 5890,
+            "work_solved": 129,
+            "h48_canonicalize": 3378,
+            "work_copy": 198,
+            "compact_T": 25881,
+            "symmetry_apply": 14792,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 872,
+            "t_sigma_code": 369,
+            "state_move": 1520,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 80642,
+          "decoded_execution_count": 80641,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 256,
+            "solve_and_replay": 323,
+            "n2_solve": 4958,
+            "expand_public": 1734,
+            "perm_rank7": 13870,
+            "h48_canonicalize": 11374,
+            "compact_T": 21976,
+            "symmetry_apply": 13330,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2323,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 97
+    },
+    {
+      "dense": 136181,
+      "input": "74165233231313",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82792,
+          "decoded_execution_count": 82791,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 256,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1816,
+            "perm_rank7": 6138,
+            "work_solved": 129,
+            "h48_canonicalize": 3363,
+            "work_copy": 198,
+            "compact_T": 26979,
+            "symmetry_apply": 15136,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1098,
+            "t_sigma_code": 527,
+            "state_move": 1520,
+            "n2_apply_move": 1628,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82775,
+          "decoded_execution_count": 82774,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 256,
+            "solve_and_replay": 323,
+            "n2_solve": 5277,
+            "expand_public": 1724,
+            "perm_rank7": 14454,
+            "h48_canonicalize": 11352,
+            "compact_T": 22928,
+            "symmetry_apply": 13640,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2323,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 17
+    },
+    {
+      "dense": 271927,
+      "input": "36725412121112",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82136,
+          "decoded_execution_count": 82135,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1820,
+            "perm_rank7": 6076,
+            "work_solved": 137,
+            "h48_canonicalize": 3369,
+            "work_copy": 198,
+            "compact_T": 26911,
+            "symmetry_apply": 14792,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1002,
+            "state_move": 1520,
+            "t_sigma_code": 430,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82107,
+          "decoded_execution_count": 82106,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 5124,
+            "expand_public": 1732,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11350,
+            "compact_T": 22867,
+            "symmetry_apply": 13330,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2323,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 29
+    },
+    {
+      "dense": 272139,
+      "input": "36725411313131",
+      "implementations": {
+        "solver_cli": {
+          "iret": 84164,
+          "decoded_execution_count": 84163,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1820,
+            "perm_rank7": 6262,
+            "work_solved": 137,
+            "h48_canonicalize": 3367,
+            "work_copy": 198,
+            "compact_T": 27615,
+            "symmetry_apply": 15480,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1233,
+            "t_sigma_code": 646,
+            "state_move": 1521,
+            "n2_apply_move": 1627,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 84114,
+          "decoded_execution_count": 84113,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5489,
+            "expand_public": 1732,
+            "perm_rank7": 14746,
+            "h48_canonicalize": 11348,
+            "compact_T": 23450,
+            "symmetry_apply": 13950,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2324,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 50
+    },
+    {
+      "dense": 272161,
+      "input": "36725411121212",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82496,
+          "decoded_execution_count": 82495,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1821,
+            "perm_rank7": 6076,
+            "work_solved": 129,
+            "h48_canonicalize": 3369,
+            "work_copy": 198,
+            "compact_T": 27212,
+            "symmetry_apply": 14792,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1002,
+            "t_sigma_code": 500,
+            "state_move": 1516,
+            "n2_apply_move": 1625,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82399,
+          "decoded_execution_count": 82398,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 5164,
+            "expand_public": 1734,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11364,
+            "compact_T": 23107,
+            "symmetry_apply": 13330,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2319,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 97
+    },
+    {
+      "dense": 272169,
+      "input": "36725412111212",
+      "implementations": {
+        "solver_cli": {
+          "iret": 83311,
+          "decoded_execution_count": 83310,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1821,
+            "perm_rank7": 6076,
+            "work_solved": 129,
+            "h48_canonicalize": 3369,
+            "work_copy": 198,
+            "compact_T": 27208,
+            "symmetry_apply": 15480,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1142,
+            "t_sigma_code": 485,
+            "state_move": 1520,
+            "n2_apply_move": 1627,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 83117,
+          "decoded_execution_count": 83116,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 5258,
+            "expand_public": 1734,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11363,
+            "compact_T": 23108,
+            "symmetry_apply": 13950,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2323,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 194
+    },
+    {
+      "dense": 272170,
+      "input": "36725412121211",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82778,
+          "decoded_execution_count": 82777,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1817,
+            "perm_rank7": 6076,
+            "work_solved": 129,
+            "h48_canonicalize": 3365,
+            "work_copy": 198,
+            "compact_T": 27070,
+            "symmetry_apply": 15136,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1072,
+            "t_sigma_code": 510,
+            "state_move": 1520,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82662,
+          "decoded_execution_count": 82661,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 252,
+            "solve_and_replay": 323,
+            "n2_solve": 5233,
+            "expand_public": 1726,
+            "perm_rank7": 14308,
+            "h48_canonicalize": 11359,
+            "compact_T": 23000,
+            "symmetry_apply": 13640,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2323,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 116
+    },
+    {
+      "dense": 272176,
+      "input": "36725412121232",
+      "implementations": {
+        "solver_cli": {
+          "iret": 80646,
+          "decoded_execution_count": 80645,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1823,
+            "perm_rank7": 5890,
+            "work_solved": 129,
+            "h48_canonicalize": 3374,
+            "work_copy": 198,
+            "compact_T": 25832,
+            "symmetry_apply": 14792,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 872,
+            "t_sigma_code": 339,
+            "state_move": 1517,
+            "n2_apply_move": 1626,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 80572,
+          "decoded_execution_count": 80571,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 4931,
+            "expand_public": 1738,
+            "perm_rank7": 13870,
+            "h48_canonicalize": 11365,
+            "compact_T": 21943,
+            "symmetry_apply": 13330,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2320,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 74
+    },
+    {
+      "dense": 272224,
+      "input": "36725412123212",
+      "implementations": {
+        "solver_cli": {
+          "iret": 82752,
+          "decoded_execution_count": 82751,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1819,
+            "perm_rank7": 6138,
+            "work_solved": 129,
+            "h48_canonicalize": 3355,
+            "work_copy": 198,
+            "compact_T": 26989,
+            "symmetry_apply": 15136,
+            "quotient_rank_from_meta": 3550,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1098,
+            "t_sigma_code": 487,
+            "state_move": 1519,
+            "n2_apply_move": 1626,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82734,
+          "decoded_execution_count": 82733,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5239,
+            "expand_public": 1730,
+            "perm_rank7": 14454,
+            "h48_canonicalize": 11340,
+            "compact_T": 22934,
+            "symmetry_apply": 13640,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2322,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 18
+    },
+    {
+      "dense": 272332,
+      "input": "36725412321212",
+      "implementations": {
+        "solver_cli": {
+          "iret": 83055,
+          "decoded_execution_count": 83054,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 556,
+            "expand_public": 1820,
+            "perm_rank7": 6138,
+            "work_solved": 129,
+            "h48_canonicalize": 3367,
+            "work_copy": 198,
+            "compact_T": 27193,
+            "symmetry_apply": 15136,
+            "quotient_rank_from_meta": 3546,
+            "ori_rank_after_sym": 9600,
+            "mask_rank": 2136,
+            "popcount32": 6534,
+            "policy_lookup": 1195,
+            "lift_policy_move": 1098,
+            "t_sigma_code": 572,
+            "state_move": 1521,
+            "n2_apply_move": 1629,
+            "n2_is_solved": 78
+          }
+        },
+        "gcc_reference": {
+          "iret": 82986,
+          "decoded_execution_count": 82985,
+          "ripes_counter_offset": 1,
+          "by_symbol_interval": {
+            "_start": 31,
+            "parse_upstream": 254,
+            "solve_and_replay": 323,
+            "n2_solve": 5312,
+            "expand_public": 1732,
+            "perm_rank7": 14454,
+            "h48_canonicalize": 11353,
+            "compact_T": 23096,
+            "symmetry_apply": 13640,
+            "ori_rank_after_sym": 10400,
+            "n2_apply_move": 2324,
+            "n2_is_solved": 66
+          }
+        }
+      },
+      "excess": 69
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+PASS independent permutation=5040 orientation=729 moves=9 graph_conjugacy=all_states

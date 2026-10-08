@@ -1,0 +1,13 @@
+symmetry_orientation_formula 1152/1152 PASS
+permutation_orbits=870 common=814 exceptional=56
+permutation_stabilizer_size=1 raw_permutations=4884
+permutation_stabilizer_size=2 raw_permutations=138
+permutation_stabilizer_size=3 raw_permutations=16
+permutation_stabilizer_size=6 raw_permutations=2
+permutation_fixed_counts 5040 48 48 18 18 48
+S3_state_orbits=612630 max_dense_quotient_key=612629
+S3_state_fixed_counts 3674160 432 432 162 162 432
+pmeta stabilizers orientation_masks all_entries PASS
+policy_hash valid_keys=77802 used_slots=77802 same_slot_extra_keys=0 stored_value_conflicts=0
+identity dense=0 permutation_meta=6512 S3_key=593406 H48_key=593406 policy=15
+ALL_TABLE_CHECKS_PASS

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-08",
+  "input_archive_sha256": "7f3b4717a6be003a3b7b0641ec17ed4d606173bc1ab6b37b2441440f01309520",
+  "source_sha256": "8d356669f07a7d872f7a9a22322db60fc2630bd075fe41297842356df5bc67cc",
+  "acceptance": "User reports teacher approval of the H48 exact-policy method",
+  "changes": [
+    "Remove sparse whole-path shortcut",
+    "Rank-compressed dense policy",
+    "Three-bit T sigma",
+    "Contiguous reserved 400-byte stack",
+    "Leaf renderer without framebuffer, snapshots or delay"
+  ],
+  "memory_contract": "All loaded code/data/bss + linked padding + 400-byte reserved stack + conservative 3500-byte LED storage <=131072"
+}

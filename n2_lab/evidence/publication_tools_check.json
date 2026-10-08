@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "PowerShell parser, preview with zero import changes, local main-branch import into an empty diagnostic Git repository, unchanged supplied C hash, no git index/commit/tag/push; HackMD conversion with explicit illustrative URL/ref, not publication.",
+  "source_import": "Publish-Package.ps1",
+  "hackmd_conversion": "prepare_hackmd.py",
+  "illustrative_note": "Kept outside deliverable under work; never used as a real submission URL",
+  "converted_characters_crlf": 81791
+}

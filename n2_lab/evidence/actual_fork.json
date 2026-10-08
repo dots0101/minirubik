@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-08",
+  "repository": "https://github.com/dots0101/minirubik",
+  "public": true,
+  "parent": "sysprog21/minirubik",
+  "default_branch": "main",
+  "starting_commit": "231796cc48868f4ea276f652139b6bebbad0cd02",
+  "local_clone": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\my_minirubik",
+  "initial_local_branch": "main",
+  "initial_worktree": "clean",
+  "baseline_c_lf_normalized_matches_preserved": true,
+  "baseline_c_lf_sha256": "562764bae4a5ca52a57ea82ac7a8490b09f92805ae3fd5bde1a4e67af82fbdfc",
+  "user_performed": [
+    "Create public fork",
+    "Clone and report starting SHA"
+  ],
+  "agent_performed": [
+    "Read-only public metadata and local clone verification",
+    "Record real repository metadata in documentation"
+  ],
+  "submission_commit": null,
+  "submission_tag": null
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-08",
+  "status": "PASS",
+  "issue": "Git CRLF/LF conversion would change the actual GUI trace bytes and its evidence SHA",
+  "fix": "n2_lab/.gitattributes: * -text; preserve exact imported file bytes",
+  "checks": [
+    "text attribute unset on source C, actual GUI TSV, production ELF",
+    "filtered hash-object equals no-filters hash-object for the actual GUI TSV"
+  ],
+  "actor": "Codex",
+  "git_index_mutation": false,
+  "commit": false,
+  "push": false
+}

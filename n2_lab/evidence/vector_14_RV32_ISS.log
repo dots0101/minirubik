@@ -1,0 +1,6 @@
+COMMAND C:\Users\dots\Documents\Codex\2026-10-05\2\work\toolchains\Ripes\Ripes.exe --mode cli --src C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\build\vector_14.elf -t elf --proc RV32_ISS --iret --cycles --cpi --exectime --runinfo --json --output C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\evidence\vector_14_RV32_ISS.json --timeout 120000
+Solution: D2 B2 D B D2 R' B' R' B 
+PASS cases=1
+
+Program exited with code: 0
+

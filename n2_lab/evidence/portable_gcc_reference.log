@@ -1,0 +1,6 @@
+COMMAND C:\Users\dots\Documents\Codex\2026-10-05\2\work\portable_smoke_20261008\N2_RIPES_LAB\toolchains\Ripes\Ripes.exe --mode cli --src C:\Users\dots\Documents\Codex\2026-10-05\2\work\portable_smoke_20261008\N2_RIPES_LAB\build\gcc_reference.elf -t elf --proc RV32_ISS --iret --cycles --cpi --exectime --runinfo --json --output C:\Users\dots\Documents\Codex\2026-10-05\2\work\portable_smoke_20261008\N2_RIPES_LAB\evidence\gcc_reference.json --timeout 120000
+Solution: B' R D R B2 R B D2 B D R 
+PASS cases=1
+
+Program exited with code: 0
+

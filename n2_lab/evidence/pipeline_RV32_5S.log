@@ -1,0 +1,4 @@
+COMMAND C:\Users\dots\Documents\Codex\2026-10-05\2\work\toolchains\Ripes\Ripes.exe --mode cli --src C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\build\pipeline_demo.elf -t elf --proc RV32_5S --iret --cycles --cpi --exectime --runinfo --json --output C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\evidence\pipeline_RV32_5S.json --timeout 120000
+
+Program exited with code: 0
+

@@ -1,0 +1,14 @@
+{
+  ".text": 5136,
+  ".rodata": 95324,
+  ".data": 0,
+  ".bss": 40,
+  ".stack": 400,
+  "static_data": 95764,
+  "allocated_image_bytes": 100912,
+  "section_bytes": 100900,
+  "alignment_gap_bytes": 12,
+  "course_static_data": 95364,
+  "reference": false,
+  "total_guest_with_led_reservation": 104412
+}

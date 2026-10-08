@@ -1,0 +1,20 @@
+{
+  "n2_b8_sym_inv": 6,
+  "h48_t_dst": 21,
+  "n2_b8_exc_aid": 28,
+  "n2_b8_sym_pos": 48,
+  "n2_b8_move_delta": 72,
+  "n2_b8_move_src": 72,
+  "h48_t_ori_ctl": 84,
+  "h48_t_perm_R": 126,
+  "h48_exc_base": 224,
+  "h48_policy_prefix": 1024,
+  "n2_b8_sym_twist": 1152,
+  "n2_b8_action_mask": 1196,
+  "h48_common_base": 3256,
+  "h48_sigma_pr_3bit": 5671,
+  "n2_b8_pmeta": 10080,
+  "h48_policy_disp": 16384,
+  "h48_policy_used": 16384,
+  "h48_policy_dense": 38901
+}

@@ -1,0 +1,286 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "logical_cpus": 24,
+  "rows": [
+    {
+      "# instructions retired": 6,
+      "cycles": 6,
+      "execution time (ms)": 0,
+      "guest_bytes_touched": 0,
+      "passes": 1,
+      "peak_working_set_bytes": 32198656,
+      "model": "RV32_ISS",
+      "rep": 0,
+      "wall_seconds": 0.05041770008392632
+    },
+    {
+      "# instructions retired": 6,
+      "cycles": 6,
+      "execution time (ms)": 0,
+      "guest_bytes_touched": 0,
+      "passes": 1,
+      "peak_working_set_bytes": 32174080,
+      "model": "RV32_ISS",
+      "rep": 1,
+      "wall_seconds": 0.052580000017769635
+    },
+    {
+      "# instructions retired": 6,
+      "cycles": 6,
+      "execution time (ms)": 1,
+      "guest_bytes_touched": 0,
+      "passes": 1,
+      "peak_working_set_bytes": 32206848,
+      "model": "RV32_ISS",
+      "rep": 2,
+      "wall_seconds": 0.049577100086025894
+    },
+    {
+      "# instructions retired": 5130,
+      "cycles": 5130,
+      "execution time (ms)": 1,
+      "guest_bytes_touched": 4096,
+      "passes": 1,
+      "peak_working_set_bytes": 32534528,
+      "model": "RV32_ISS",
+      "rep": 0,
+      "wall_seconds": 0.05165779998060316
+    },
+    {
+      "# instructions retired": 5130,
+      "cycles": 5130,
+      "execution time (ms)": 1,
+      "guest_bytes_touched": 4096,
+      "passes": 1,
+      "peak_working_set_bytes": 32518144,
+      "model": "RV32_ISS",
+      "rep": 1,
+      "wall_seconds": 0.051796200103126466
+    },
+    {
+      "# instructions retired": 5130,
+      "cycles": 5130,
+      "execution time (ms)": 1,
+      "guest_bytes_touched": 4096,
+      "passes": 1,
+      "peak_working_set_bytes": 32460800,
+      "model": "RV32_ISS",
+      "rep": 2,
+      "wall_seconds": 0.0491447999374941
+    },
+    {
+      "# instructions retired": 163850,
+      "cycles": 163850,
+      "execution time (ms)": 19,
+      "guest_bytes_touched": 131072,
+      "passes": 1,
+      "peak_working_set_bytes": 42987520,
+      "model": "RV32_ISS",
+      "rep": 0,
+      "wall_seconds": 0.06895950005855411
+    },
+    {
+      "# instructions retired": 163850,
+      "cycles": 163850,
+      "execution time (ms)": 19,
+      "guest_bytes_touched": 131072,
+      "passes": 1,
+      "peak_working_set_bytes": 43053056,
+      "model": "RV32_ISS",
+      "rep": 1,
+      "wall_seconds": 0.06870379997417331
+    },
+    {
+      "# instructions retired": 163850,
+      "cycles": 163850,
+      "execution time (ms)": 18,
+      "guest_bytes_touched": 131072,
+      "passes": 1,
+      "peak_working_set_bytes": 43065344,
+      "model": "RV32_ISS",
+      "rep": 2,
+      "wall_seconds": 0.0661244000075385
+    },
+    {
+      "# instructions retired": 1310730,
+      "cycles": 1310730,
+      "execution time (ms)": 247,
+      "guest_bytes_touched": 1048576,
+      "passes": 1,
+      "peak_working_set_bytes": 116666368,
+      "model": "RV32_ISS",
+      "rep": 0,
+      "wall_seconds": 0.3092494000447914
+    },
+    {
+      "# instructions retired": 1310730,
+      "cycles": 1310730,
+      "execution time (ms)": 252,
+      "guest_bytes_touched": 1048576,
+      "passes": 1,
+      "peak_working_set_bytes": 116682752,
+      "model": "RV32_ISS",
+      "rep": 1,
+      "wall_seconds": 0.30529699998442084
+    },
+    {
+      "# instructions retired": 1310730,
+      "cycles": 1310730,
+      "execution time (ms)": 251,
+      "guest_bytes_touched": 1048576,
+      "passes": 1,
+      "peak_working_set_bytes": 116649984,
+      "model": "RV32_ISS",
+      "rep": 2,
+      "wall_seconds": 0.3056364000076428
+    },
+    {
+      "# instructions retired": 5242890,
+      "cycles": 5242890,
+      "execution time (ms)": 1393,
+      "guest_bytes_touched": 4194304,
+      "passes": 1,
+      "peak_working_set_bytes": 369205248,
+      "model": "RV32_ISS",
+      "rep": 0,
+      "wall_seconds": 1.4583698000060394
+    },
+    {
+      "# instructions retired": 5242890,
+      "cycles": 5242890,
+      "execution time (ms)": 1416,
+      "guest_bytes_touched": 4194304,
+      "passes": 1,
+      "peak_working_set_bytes": 369242112,
+      "model": "RV32_ISS",
+      "rep": 1,
+      "wall_seconds": 1.4838248000014573
+    },
+    {
+      "# instructions retired": 5242890,
+      "cycles": 5242890,
+      "execution time (ms)": 1387,
+      "guest_bytes_touched": 4194304,
+      "passes": 1,
+      "peak_working_set_bytes": 369192960,
+      "model": "RV32_ISS",
+      "rep": 2,
+      "wall_seconds": 1.4585962999844924
+    },
+    {
+      "# instructions retired": 1310758,
+      "cycles": 1310758,
+      "execution time (ms)": 61,
+      "guest_bytes_touched": 131072,
+      "passes": 8,
+      "peak_working_set_bytes": 43036672,
+      "model": "RV32_ISS",
+      "rep": 0,
+      "wall_seconds": 0.11374459997750819
+    },
+    {
+      "# instructions retired": 1310758,
+      "cycles": 1310758,
+      "execution time (ms)": 61,
+      "guest_bytes_touched": 131072,
+      "passes": 8,
+      "peak_working_set_bytes": 43024384,
+      "model": "RV32_ISS",
+      "rep": 1,
+      "wall_seconds": 0.11119049997068942
+    },
+    {
+      "# instructions retired": 1310758,
+      "cycles": 1310758,
+      "execution time (ms)": 60,
+      "guest_bytes_touched": 131072,
+      "passes": 8,
+      "peak_working_set_bytes": 43110400,
+      "model": "RV32_ISS",
+      "rep": 2,
+      "wall_seconds": 0.11095879995264113
+    },
+    {
+      "# instructions retired": 1310758,
+      "cycles": 1835050,
+      "execution time (ms)": 3091,
+      "guest_bytes_touched": 131072,
+      "passes": 8,
+      "peak_working_set_bytes": 45121536,
+      "model": "RV32_5S",
+      "rep": 0,
+      "wall_seconds": 3.141565299942158
+    },
+    {
+      "# instructions retired": 1310758,
+      "cycles": 1835050,
+      "execution time (ms)": 3094,
+      "guest_bytes_touched": 131072,
+      "passes": 8,
+      "peak_working_set_bytes": 44969984,
+      "model": "RV32_5S",
+      "rep": 1,
+      "wall_seconds": 3.1486193999880925
+    },
+    {
+      "# instructions retired": 1310758,
+      "cycles": 1835050,
+      "execution time (ms)": 3162,
+      "guest_bytes_touched": 131072,
+      "passes": 8,
+      "peak_working_set_bytes": 45006848,
+      "model": "RV32_5S",
+      "rep": 2,
+      "wall_seconds": 3.216584899928421
+    }
+  ],
+  "memory": [
+    {
+      "guest_bytes": 0,
+      "median_peak_bytes": 32198656,
+      "delta_from_control_bytes": 0,
+      "repeats": 3
+    },
+    {
+      "guest_bytes": 4096,
+      "median_peak_bytes": 32518144,
+      "delta_from_control_bytes": 319488,
+      "repeats": 3
+    },
+    {
+      "guest_bytes": 131072,
+      "median_peak_bytes": 43053056,
+      "delta_from_control_bytes": 10854400,
+      "repeats": 3
+    },
+    {
+      "guest_bytes": 1048576,
+      "median_peak_bytes": 116666368,
+      "delta_from_control_bytes": 84467712,
+      "repeats": 3
+    },
+    {
+      "guest_bytes": 4194304,
+      "median_peak_bytes": 369205248,
+      "delta_from_control_bytes": 337006592,
+      "repeats": 3
+    }
+  ],
+  "throughput": [
+    {
+      "model": "RV32_ISS",
+      "median_retired_per_second": 21487836.06557377,
+      "iret": 1310758,
+      "cycles": 1310758,
+      "repeats": 3
+    },
+    {
+      "model": "RV32_5S",
+      "median_retired_per_second": 423645.1195862961,
+      "iret": 1310758,
+      "cycles": 1835050,
+      "repeats": 3
+    }
+  ]
+}

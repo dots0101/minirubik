@@ -1,0 +1,17 @@
+{
+  "# instructions retired": 515,
+  "CPI": 1,
+  "cycles": 515,
+  "execution time (ms)": 2,
+  "runinfo": {
+    "ISA extensions": [],
+    "processor": "RV32_ISS",
+    "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\pipeline_demo.elf"
+  },
+  "wall_seconds": 0.0759649999672547,
+  "source_type": "elf",
+  "model": "RV32_ISS",
+  "process_returncode": 0,
+  "program_exit_code": 0,
+  "pass_cases": null
+}

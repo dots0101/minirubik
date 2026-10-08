@@ -1,0 +1,24 @@
+{
+  "solver_cli": {
+    "cases": 2644,
+    "min": 61829,
+    "mean": 67174.83207261725,
+    "max": 84164,
+    "total": 177610256,
+    "all_below_50m": true,
+    "pass_cases": 2644
+  },
+  "gcc_reference": {
+    "cases": 2644,
+    "min": 64028,
+    "mean": 69392.08812405447,
+    "max": 84114,
+    "total": 183472681,
+    "all_below_50m": true,
+    "pass_cases": 2644
+  },
+  "manual_wins": 2628,
+  "manual_ties": 0,
+  "wall_seconds": 113.8467546000611,
+  "scope": "Full program: parse, solve, replay, print and exit. Renderer disabled. Independent process per state."
+}

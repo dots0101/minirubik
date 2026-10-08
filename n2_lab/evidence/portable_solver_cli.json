@@ -1,0 +1,17 @@
+{
+  "# instructions retired": 65617,
+  "CPI": 1,
+  "cycles": 65617,
+  "execution time (ms)": 6,
+  "runinfo": {
+    "ISA extensions": [],
+    "processor": "RV32_ISS",
+    "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\portable_smoke_20261008\\N2_RIPES_LAB\\build\\solver_cli.elf"
+  },
+  "wall_seconds": 0.130927300080657,
+  "source_type": "elf",
+  "model": "RV32_ISS",
+  "process_returncode": 0,
+  "program_exit_code": 0,
+  "pass_cases": 1
+}

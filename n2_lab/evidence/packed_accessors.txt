@@ -1,0 +1,3 @@
+PASS policy_rank_slots=131072 populated=77802 even=38901 odd=38901 prefixes=256
+PASS sigma_entries=15120 even=7560 odd=7560 bit_offsets=0..7 cross_byte=PASS guard=0
+PASS exception_nibbles=56 even=28 odd=28; independent unpacked reference H4

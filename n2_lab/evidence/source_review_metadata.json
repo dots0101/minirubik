@@ -1,0 +1,598 @@
+{
+  "date": "2026-10-08",
+  "scope": "All direct URLs from the three course documents plus needed primary/pinned followups; no recursive crawl of unrelated links.",
+  "main_documents": [
+    {
+      "file": "assignment_20261008.md",
+      "sha256": "b32f5cfcf97088b4efd6b8df9a3060b278c7c4915b88720877577cb6c5b0b00a",
+      "review": "entire current document"
+    },
+    {
+      "file": "ai_guidelines_20261008.md",
+      "sha256": "b9a923083cfbe846901daecd14695e55fb9b79bc0e3404818f83258d81f40ccf",
+      "review": "entire current document"
+    },
+    {
+      "file": "lab1_20261008.md",
+      "sha256": "69ca69f489a29e3086fac79983f689872b5c8c521674ec8a72b8bf4f4da67bb0",
+      "review": "entire current document"
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "url": "https://aiandeducation.mit.edu/report/",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u76f8\u95dc\u7ae0\u7bc0\u5df2\u8b80",
+      "purpose": "MIT\u653f\u7b56\u80cc\u666f\uff1b\u95b1\u8b80\u539f\u5247\u8207assessment\u76f8\u95dc\u7ae0\u7bc0\uff0c\u8ab2\u7a0bguidelines\u624d\u662f\u6b63\u5f0f\u898f\u5247",
+      "sha256": "df1a9ec0a1f44a1bdbd9c06a6da6fc66828a6c627d5dfe6eea36fbfa611139bc",
+      "bytes": 228162
+    },
+    {
+      "index": 1,
+      "url": "https://appimage.org/",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Linux\u5305\u88dd\u80cc\u666f\uff0c\u672c\u6a5f\u7528Windows",
+      "sha256": "939c8e84a12d4531447381d097d5ea2a6846269304ae0f6d1aae65eca9f52e27",
+      "bytes": 24559
+    },
+    {
+      "index": 2,
+      "url": "https://arxiv.org/abs/2408.07945",
+      "fetch_status": "unavailable",
+      "review_status": "browser fallback\u5168\u6587\u5df2\u8b80\uff08local TLS\u5931\u6557\uff09",
+      "purpose": "arXiv abstract\u53d6\u4ee3\u70baHTML\u5168\u6587browser fallback",
+      "sha256": null,
+      "bytes": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "index": 3,
+      "url": "https://brew.sh/",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "macOS/WSL\u5de5\u5177\u80cc\u666f\uff0c\u672c\u6a5f\u4e0d\u4f7f\u7528brew",
+      "sha256": "3c21f73207aef51f85f561931010d974c1a578ee4ed637ee5a54b1ea63e8cf91",
+      "bytes": 26492
+    },
+    {
+      "index": 4,
+      "url": "https://cbea.ms/git-commit/",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "commit\u8a0a\u606f\u7684\u76ee\u7684\u8207\u5167\u5bb9\uff0c\u4e0d\u80fd\u53cd\u5411\u507d\u9020\u6b77\u53f2",
+      "sha256": "5cf9b88b54a1ea355274752a93c7d9c26a9391f607a3edcb9ecddfcd42d3f758",
+      "bytes": 38499
+    },
+    {
+      "index": 5,
+      "url": "https://cdn.aaai.org/AAAI/1997/AAAI97-109.pdf",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "IDA*\u8207PDB\u539f\u59cb\u6587\u737b\uff1b\u672cH48\u4e0d\u4f7f\u7528heuristic",
+      "sha256": "20615c394033b3add15e7f47ac549f06bd529139ed9b6c4e21116004e72213d4",
+      "bytes": 1100034
+    },
+    {
+      "index": 6,
+      "url": "https://doi.org/10.1007/s10009-005-0191-z",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Valmari\u6458\u8981\u9801\uff1b\u5b8c\u657415\u9801PDF\u53e6\u53d664",
+      "sha256": "125be2dcf6d18208cdae26db97e7b36df6b4c0682fe5905cfc213004154a476d",
+      "bytes": 236447
+    },
+    {
+      "index": 7,
+      "url": "https://doi.org/10.1016/0004-3702%2885%2990084-0",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u53ea\u53d6\u5f97Bad Gateway\uff1b\u672a\u8b80\u8ad6\u6587\u5168\u6587",
+      "purpose": "1985IDA* DOI\u53d7\u963b\uff0c\u672a\u5ba3\u7a31\u5168\u6587\u5df2\u8b80",
+      "sha256": "1d7f9ba95e953c9a857cdd194fb14da727179820812f703fa014e00d029f7f2e",
+      "bytes": 2643
+    },
+    {
+      "index": 8,
+      "url": "https://doi.org/10.1111/0824-7935.00065",
+      "fetch_status": "unavailable",
+      "review_status": "\u5b58\u53d6\u53d7\u963b\uff1b\u672a\u8b80\u539f\u9801\u5168\u6587",
+      "purpose": "PDB DOI403\uff0c\u672a\u5ba3\u7a31\u5168\u6587\u5df2\u8b80",
+      "sha256": null,
+      "bytes": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 9,
+      "url": "https://en.wikipedia.org/wiki/RISC-V",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u76f8\u95dc\u7ae0\u7bc0\u5df2\u8b80",
+      "purpose": "RISC-V\u4e00\u822c\u4ecb\u7d39\uff1bopcode\u5224\u5b9a\u4ee5\u5b98\u65b9RV32I\u5168\u6587\u70ba\u6e96",
+      "sha256": "7a3eee45a2e876f99f265536efb7b346ef354071f50ff1cc7f748752b37ec2a7",
+      "bytes": 1141256
+    },
+    {
+      "index": 10,
+      "url": "https://forms.gle/2ZupDEdJyJkHM8Y6A",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "\u5b98\u65b9\u63d0\u4ea4schema\u5169\u9801\u4e03\u500bfields\uff0c\u672a\u9001\u4efb\u4f55\u8cc7\u6599",
+      "sha256": "fcd3090daa48842645de8321e3cbea0ce0e4af2de05a7cc3ba8222502008aef0",
+      "bytes": 95643
+    },
+    {
+      "index": 11,
+      "url": "https://github.com/mortbopet/Ripes",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "RipesREADME\u5b89\u88dd\uff0fmodels",
+      "sha256": "82e3e1039cf2701e06d782d0562e913008794a0b06b45a9e845dfc836cd3338f",
+      "bytes": 305439
+    },
+    {
+      "index": 12,
+      "url": "https://github.com/mortbopet/Ripes/blob/master/docs/ecalls.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Ripes ecalls\u800c\u975eLinux syscall\u8868",
+      "sha256": "9a08ab7df776735669d1eae65c2ac466268dceac59c9c5aa07fe78f01630a07e",
+      "bytes": 1886
+    },
+    {
+      "index": 13,
+      "url": "https://github.com/mortbopet/Ripes/blob/master/docs/mmio.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "MMIO\u7b26\u865f\u3001device\u914d\u7f6e\u8207CLI\u7121peripheral",
+      "sha256": "0e370571dc9817082835ce937ab43a656e6dce92b62d6e66387e7009dbe46870",
+      "bytes": 6301
+    },
+    {
+      "index": 14,
+      "url": "https://github.com/mortbopet/Ripes/blob/master/src/io/ioledmatrix.cpp",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "LED implementation row-major\u30013500bytes",
+      "sha256": "5cbd01c4306723e08be7f43873a93a874a5a8519eb748a629f43e9653f4d048d",
+      "bytes": 3515
+    },
+    {
+      "index": 15,
+      "url": "https://github.com/mortbopet/Ripes/blob/master/src/isa/rvisainfo_common.h",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Ripes ISA/register\u53caextension\u5ba3\u544a\u76f8\u95dcsource\uff1b\u975esyscall\u5be6\u4f5c\u672c\u8eab",
+      "sha256": "75af3eb7c201715a2e0c432c9c5287c120381fcd5130574114a1e2f44c0b6119",
+      "bytes": 10804
+    },
+    {
+      "index": 16,
+      "url": "https://github.com/mortbopet/Ripes/releases",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u76f8\u95dc\u7ae0\u7bc0\u5df2\u8b80",
+      "purpose": "release assets\uff0fcontinuous\u9078\u64c7\u8207\u7248\u672c\u8cc7\u8a0a",
+      "sha256": "b353730f353ccf844615a117b2666250cc27fa05e4a1ecc3ea5ca9677abc832f",
+      "bytes": 365306
+    },
+    {
+      "index": 17,
+      "url": "https://github.com/mortbopet/Ripes/tree/master/docs",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "in-tree documentation\u7d22\u5f15",
+      "sha256": "8dbb15240f4f85e53a90a4eea4cf669b82b44a52b737e33ddce5ed1fdb4289e1",
+      "bytes": 245178
+    },
+    {
+      "index": 18,
+      "url": "https://github.com/mortbopet/VSRTL/blob/master/include/VSRTL/core/vsrtl_addressspace.h",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "VSRTL byte unordered_map\u53caIO regions",
+      "sha256": "9daf5810f4957a57f55b4ddf95583d9f597c58650c4893b1426a7c86505e9aa8",
+      "bytes": 6868
+    },
+    {
+      "index": 19,
+      "url": "https://github.com/riscv-non-isa/riscv-asm-manual",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "assembly manual README\uff0f\u4f86\u6e90\u5165\u53e3",
+      "sha256": "f720ac1f728769f60143b0593724f8a721297911271f91a964e9ad91ba7fc035",
+      "bytes": 323429
+    },
+    {
+      "index": 20,
+      "url": "https://github.com/riscv/riscv-isa-manual/releases/latest",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "official ISA release\u5165\u53e3\uff0cRV32I\u6b63\u6587\u53e6\u53d662",
+      "sha256": "2033a34ac3ea088cdefcf26baf73b2ee0118dacc781847b675227e62013a9bd3",
+      "bytes": 199784
+    },
+    {
+      "index": 21,
+      "url": "https://github.com/sysprog21/arch-riscv-progs",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "RISC-V\u7bc4\u4f8brepoREADME\uff1b\u4e0d\u63a1\u7528M/C\u793a\u4f8b",
+      "sha256": "2bd995e04344f51fe472a2bf7af8870a9ff661953b88d27d6525a08e137b58e4",
+      "bytes": 242221
+    },
+    {
+      "index": 22,
+      "url": "https://github.com/sysprog21/codetrial",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "CodeTrialREADME\uff1b\u9762\u8a66\u6b63\u5f0f\u898f\u5247\u4ee5courseSection5\u70ba\u6e96",
+      "sha256": "51b6a7d3ca593039b30e8d059ea1cc9ee4fe9bcb75a06345a7753a4ce813937f",
+      "bytes": 407087
+    },
+    {
+      "index": 23,
+      "url": "https://github.com/sysprog21/minirubik",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "minirubikREADME\u8207input conventions",
+      "sha256": "bd2ed41fbf24db6d69a6972c2df5025a956056522d43f475b00147d5758b911c",
+      "bytes": 313577
+    },
+    {
+      "index": 24,
+      "url": "https://github.com/sysprog21/minirubik/blob/main/report.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "upstream report baseline\u3001\u6578\u5b78\u53casection7\uff0cmod3\u4e0d\u662fparity",
+      "sha256": "36523772f2923c68e3cf31d977bc7ce900f3670d4dfad0aba46712b514f896f0",
+      "bytes": 41507
+    },
+    {
+      "index": 26,
+      "url": "https://hackmd.io/@sysprog/H1TpVYMdB",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Lab1\u5168\u6587\uff1bfactorial M/recursion\u793a\u4f8b\u4e0d\u79fb\u690d\u5230HW",
+      "sha256": "69ca69f489a29e3086fac79983f689872b5c8c521674ec8a72b8bf4f4da67bb0",
+      "bytes": 19002
+    },
+    {
+      "index": 27,
+      "url": "https://hackmd.io/@sysprog/SkkbXLJRR",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "\u820aHackMD\u683c\u5f0f\u4f8b\u5168\u6587\uff0c\u5b8c\u6574listing/M opcode\u505a\u6cd5\u4e0d\u63a1\u7528",
+      "sha256": "859a83455ad22ad4a5ea8b6aa908ef822fd914ca22111edb87aa6d7a879f900f",
+      "bytes": 9139
+    },
+    {
+      "index": 28,
+      "url": "https://hackmd.io/@sysprog/arch2026-ai-guidelines",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "AI guidelines\u5168\u6587\uff0cmethod approval\u4e0d\u7b49\u65bcauthorship\u8c41\u514d",
+      "sha256": "b9a923083cfbe846901daecd14695e55fb9b79bc0e3404818f83258d81f40ccf",
+      "bytes": 22795
+    },
+    {
+      "index": 29,
+      "url": "https://hackmd.io/_uploads/B127ofQhgl.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "db098cc88715087d8dda59807fb3c470380208c78ab10457b7b08322c6aae0f7",
+      "bytes": 609333
+    },
+    {
+      "index": 30,
+      "url": "https://hackmd.io/_uploads/B1U37yXngx.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "8f3d712feab7e1f2d29b0e080752d70241df1f9161335c393c0c7e9d556479c5",
+      "bytes": 259872
+    },
+    {
+      "index": 31,
+      "url": "https://hackmd.io/_uploads/B1yt5M72xg.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "9a989dc2da22b5ffb7d0fbda40fe03ae9903322a7a70860134f71ecaaa154254",
+      "bytes": 17610
+    },
+    {
+      "index": 32,
+      "url": "https://hackmd.io/_uploads/BJIb0Z8ya.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "c2708642802ea209fa753e88a09af60a8683217db16722b74dfcf5275fe99aad",
+      "bytes": 183293
+    },
+    {
+      "index": 33,
+      "url": "https://hackmd.io/_uploads/Bki3mBJqfg.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "e5282c0a6b96e490fab1f529062813a99953ab6048e688830074805480be467a",
+      "bytes": 2009861
+    },
+    {
+      "index": 34,
+      "url": "https://hackmd.io/_uploads/S1L6czm2xe.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "5f20111e67230ca083dd088da6982b51754cd703eec34de35b53d09f7ca78c69",
+      "bytes": 625181
+    },
+    {
+      "index": 35,
+      "url": "https://hackmd.io/_uploads/r1KvofXnlg.png",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u898f\u683c\u793a\u610f\u5716\uff1b\u672a\u4f5c\u6587\u5b57\u898f\u5247\u4f86\u6e90",
+      "purpose": "Lab1/assignment\u793a\u610f\u5716",
+      "sha256": "a33ae4532104b0d5af89a8bd3a45a058791feed13fc6cbd9107e1ba1b237daaf",
+      "bytes": 49798
+    },
+    {
+      "index": 36,
+      "url": "https://hackmd.io/s/features",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "HackMD syntax/features",
+      "sha256": "0f7096839243f6035ec3198bd808748a9ae88d2f1de60d07b77c5311cdf312eb",
+      "bytes": 18622
+    },
+    {
+      "index": 37,
+      "url": "https://hackmd.io/s/how-to-publish-note",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "HackMD publish\u64cd\u4f5c\u8207fixed URL",
+      "sha256": "4ccf76974a23e52e5e224cba948ad61fd457c42c7f5d4929c4b24672dd8d44ba",
+      "bytes": 3402
+    },
+    {
+      "index": 38,
+      "url": "https://marz.utk.edu/my-courses/cosc230/book/example-risc-v-assembly-programs/",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "UTK assembly examples\u6b63\u6587\uff1bRV64/float/M\u4e0d\u662f\u672c\u4f5c\u696d\u5141\u8a31opcodes",
+      "sha256": "6f6d39fbd25ec93f24dda1a9df7715297c7ddf8e5c60db9768da41a7e9478e94",
+      "bytes": 65326
+    },
+    {
+      "index": 39,
+      "url": "https://mathworld.wolfram.com/CayleyGraph.html",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u76f8\u95dc\u7ae0\u7bc0\u5df2\u8b80",
+      "purpose": "Cayley\u5b9a\u7fa9\u76f8\u95dc\u6bb5\u843d\uff1b\u4e0d\u4f7f\u7528\u7121\u95dcgraph catalog",
+      "sha256": "8f616c1197ad82ddb5808e91ab7d1496572e7ed74b7198588a39e6f4f52e7973",
+      "bytes": 192608
+    },
+    {
+      "index": 40,
+      "url": "https://medium.com/@ricdonati/solving-a-rubiks-cube-using-graph-theory-6724e9ba68ce",
+      "fetch_status": "unavailable",
+      "review_status": "\u5b58\u53d6\u53d7\u963b\uff1b\u672a\u8b80\u539f\u9801\u5168\u6587",
+      "purpose": "Medium403\uff0c\u898f\u683c\u4e5f\u4e0d\u5141\u8a31\u4f5c\u7cbe\u78ba\u6578\u5b78\u8b49\u64da",
+      "sha256": null,
+      "bytes": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 41,
+      "url": "https://quillbot.com/",
+      "fetch_status": "unavailable",
+      "review_status": "\u5b58\u53d6\u53d7\u963b\uff1b\u672a\u8b80\u539f\u9801\u5168\u6587",
+      "purpose": "QuillBot\u884c\u92b7\u670d\u52d9403\uff0c\u975e\u6280\u8853\u898f\u683c",
+      "sha256": null,
+      "bytes": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 42,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/docs/cli.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "pinnedCLI",
+      "sha256": "9b7da18c97930a2166081122172217331bd6454624dd456cec6e04cd50530fee",
+      "bytes": 2158
+    },
+    {
+      "index": 43,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/docs/ecalls.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "pinnedecalls",
+      "sha256": "9a08ab7df776735669d1eae65c2ac466268dceac59c9c5aa07fe78f01630a07e",
+      "bytes": 1886
+    },
+    {
+      "index": 44,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/docs/mmio.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "pinnedMMIO",
+      "sha256": "0e370571dc9817082835ce937ab43a656e6dce92b62d6e66387e7009dbe46870",
+      "bytes": 6301
+    },
+    {
+      "index": 46,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/src/processors/RISC-V/rv5s/rv5s.h",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "pinned5S\u5b8c\u6574wiring",
+      "sha256": "eec0d4554416efaa526ec00b5bc4136665ff1c907f5ef4f6cbfc943aeea7b112",
+      "bytes": 19533
+    },
+    {
+      "index": 47,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/src/processors/RISC-V/rv5s/rv5s_forwardingunit.h",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "forwarding MEM\u512a\u5148WB\u4e14\u4e0d\u8f49\u9001x0",
+      "sha256": "7d48c3591352b8a1839ff4cfa405e4f3ce85b6686195417cd1229f1766b2416b",
+      "bytes": 1671
+    },
+    {
+      "index": 48,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/src/processors/RISC-V/rv5s/rv5s_hazardunit.h",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "load-use hold/clear\u53caecalldrain",
+      "sha256": "f7f83dac721eda966753327b7345423195e07a00a386c83690f98d0ec76e8cd5",
+      "bytes": 2578
+    },
+    {
+      "index": 49,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/src/processors/RISC-V/rv_control.h",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "decoder mem/reg/ALU/WB controls",
+      "sha256": "ed0f44ca1ecc1b819ea136f22d6c064c0cafe6378ad409431f4a473091ead4ab",
+      "bytes": 10932
+    },
+    {
+      "index": 50,
+      "url": "https://raw.githubusercontent.com/riscv-non-isa/riscv-asm-manual/main/src/asm-manual.adoc",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u76f8\u95dc\u7ae0\u7bc0\u5df2\u8b80",
+      "purpose": "assembly manual RV32I directives/ABI/pseudo/relocations\uff1b\u8df3\u904eRV64\u8207float\u4f8b",
+      "sha256": "77d170d74a81f0a538fcb1b3d1086d752e0119ee0635a7ff91adac3d0a057fc5",
+      "bytes": 53108
+    },
+    {
+      "index": 51,
+      "url": "https://raw.githubusercontent.com/riscv/riscv-isa-manual/main/src/rv32.adoc",
+      "fetch_status": "unavailable",
+      "review_status": "404\uff1b\u66ff\u4ee3\u5b98\u65b9RV32I\u5168\u658762\u5df2\u8b80",
+      "purpose": "obsolete adoc path404\uff0c\u4f7f\u752862\u73fe\u884cofficialRV32I",
+      "sha256": null,
+      "bytes": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "index": 52,
+      "url": "https://raw.githubusercontent.com/sysprog21/codetrial/main/README.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "CodeTrial raw README\u820722\u91cd\u8907",
+      "sha256": "5ef2f6e37b4d6e3f32fa12d9eef79e143679cca49bde8814a57cfa1703cdb1da",
+      "bytes": 22206
+    },
+    {
+      "index": 53,
+      "url": "https://ripes.dk/",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u50c5noscript\u5165\u53e3\uff1b\u672a\u64cd\u4f5cbrowser simulator",
+      "purpose": "Web Ripes noscript shell\uff0c\u672a\u5ba3\u7a31\u64cd\u4f5c\u904ebrowser simulator",
+      "sha256": "fac96f4aae86cbb9491f89eda097509ae013153b3c94ab35aa40e894436f4e86",
+      "bytes": 3419
+    },
+    {
+      "index": 54,
+      "url": "https://wiki.csie.ncku.edu.tw/arch/schedule",
+      "fetch_status": "unavailable",
+      "review_status": "\u5b58\u53d6\u53d7\u963b\uff1b\u672a\u8b80\u539f\u9801\u5168\u6587",
+      "purpose": "course wiki TLS expired\uff0fweb502\uff0c\u53ea\u80fd\u67e52026search index\u4e26\u8b80\u5176HackMD\u898f\u683c",
+      "sha256": null,
+      "bytes": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "index": 55,
+      "url": "https://www.hackster.io/patrick-fitzgerald2/ripes-risc-v-simulator-9c8a51",
+      "fetch_status": "unavailable",
+      "review_status": "\u5b58\u53d6\u53d7\u963b\uff1b\u672a\u8b80\u539f\u9801\u5168\u6587",
+      "purpose": "Hackster403\uff0c\u6539\u8b80Ripes official introduction",
+      "sha256": null,
+      "bytes": null,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 56,
+      "url": "https://www.jaapsch.net/puzzles/cube2.htm",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Pocket Cube\u5168\u6587\u8207HTM/QTM distribution",
+      "sha256": "55e56fcd26155a85b5229963098050a99d1cb9591a058bea782f02c462eea112",
+      "bytes": 21812
+    },
+    {
+      "index": 57,
+      "url": "https://youtu.be/rlB8aeXDpc0",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u53ea\u8b80\u9801\u9762metadata\uff1b\u7121\u5f71\u7247\uff0ftranscript",
+      "purpose": "YouTube\u9801\u9762metadata\u53ef\u53d6\uff0c\u5f71\u7247\uff0ftranscript\u4e0d\u53ef\u8b80",
+      "sha256": "44082e025c3cd11fd7cde1a87ea13f993010e6df6180217ad43fd14240ecb7f5",
+      "bytes": 1318807
+    },
+    {
+      "index": 58,
+      "url": "https://youtu.be/yEw-S8J-LkI",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u53ea\u8b80\u9801\u9762metadata\uff1b\u7121\u5f71\u7247\uff0ftranscript",
+      "purpose": "YouTube\u9801\u9762metadata\u53ef\u53d6\uff0c\u5f71\u7247\uff0ftranscript\u4e0d\u53ef\u8b80",
+      "sha256": "73ece8c839c004b45d48d000d9c848b5d168cf3760f1ca3aed0c9614f4578b5f",
+      "bytes": 1323275
+    },
+    {
+      "index": 60,
+      "url": "https://graphics.stanford.edu/~seander/bithacks.html",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u76f8\u95dc\u7ae0\u7bc0\u5df2\u8b80",
+      "purpose": "32-bit sign/mask/modulo/popcount\u76f8\u95dcsections\uff0c\u6392\u9664\u4e58\u6cd5/64bit/float\u6280\u6cd5",
+      "sha256": "e0512583dfeecaca042064a38f4f2050f59fbb60a07ccc209de302613f5dcf69",
+      "bytes": 97985
+    },
+    {
+      "index": 61,
+      "url": "https://arxiv.org/html/2408.07945v1",
+      "fetch_status": "unavailable",
+      "review_status": "browser fallback\u5168\u6587\u5df2\u8b80\uff08local TLS\u5931\u6557\uff09",
+      "purpose": "arXiv\u5168\u6587\u7d93webfallback\u8b80\u53d6\uff0clocal TLS\u672a\u7e5e\u904e",
+      "sha256": null,
+      "bytes": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "index": 62,
+      "url": "https://docs.riscv.org/reference/isa/v20260120/unpriv/rv32.html",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "official RV32I\u6b63\u6587\u5168\u6587\uff1aformats/ops/branches/loadstore/FENCE/ECALL/HINTs",
+      "sha256": "0705ae047f800a0a416e2de1d45c8ab83aea814c5225a1e568940ee7fd69d948",
+      "bytes": 107630
+    },
+    {
+      "index": 63,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/docs/introduction.md",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "pinnedRipes introduction\uff1asignals/layout/history",
+      "sha256": "229c113f9e4e4e9149e39eb073fbe65bf9e24c399bb5c1a07a19fd6ee3a093db",
+      "bytes": 12117
+    },
+    {
+      "index": 64,
+      "url": "https://link.springer.com/content/pdf/10.1007/s10009-005-0191-z.pdf",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "Valmari\u5b8c\u657415\u9801PDF\uff0c31bit\u8207perfectpacking\u8cc7\u6599\u7d50\u69cb\u53d6\u6368\uff1b\u517614\u8f49\u662fQTM",
+      "sha256": "88ff07926955886752ee79940fe6bea5e6626cfbb691542790ea1bc72c70741b",
+      "bytes": 1277625
+    },
+    {
+      "index": 65,
+      "url": "https://raw.githubusercontent.com/mortbopet/Ripes/5b8a616/src/io/ioledmatrix.cpp",
+      "fetch_status": "downloaded; content review tracked separately",
+      "review_status": "\u5168\u6587\uff0f\u5b8c\u6574\u6b63\u6587\u5df2\u8b80",
+      "purpose": "pinnedLED\u5b8c\u6574source\u4e14SHA\u7b49\u65bc14",
+      "sha256": "5cbd01c4306723e08be7f43873a93a874a5a8519eb748a629f43e9653f4d048d",
+      "bytes": 3515
+    }
+  ]
+}

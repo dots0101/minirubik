@@ -1,0 +1,17 @@
+{
+  "# instructions retired": 57008,
+  "CPI": 1.3158504069604267,
+  "cycles": 75014,
+  "execution time (ms)": 125,
+  "runinfo": {
+    "ISA extensions": [],
+    "processor": "RV32_5S",
+    "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\bench_mod3_branchless.elf"
+  },
+  "wall_seconds": 0.17315080005209893,
+  "source_type": "elf",
+  "model": "RV32_5S",
+  "process_returncode": 0,
+  "program_exit_code": 0,
+  "pass_cases": null
+}

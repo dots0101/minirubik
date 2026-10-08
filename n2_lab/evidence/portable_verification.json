@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "scope": "Isolated folder, verified supplied Ripes ZIP SHA, archive extraction by Environment.ps1, all five supplied current ELF programs run using only the newly extracted pinned Ripes. No native GUI control.",
+  "ripes_archive_sha256": "ad16997577d877838110fca9035ded9e7438db7b2e868ec05a681a12453014a4",
+  "records": [
+    {
+      "implementation": "solver_cli",
+      "elf_sha256": "55ec223b632bff2683b909010cf4c21c82b50d589bb74806bd20f9e5ed050d43",
+      "# instructions retired": 65617,
+      "CPI": 1,
+      "cycles": 65617,
+      "execution time (ms)": 6,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\portable_smoke_20261008\\N2_RIPES_LAB\\build\\solver_cli.elf"
+      },
+      "wall_seconds": 0.130927300080657,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "gcc_reference",
+      "elf_sha256": "6a1d78509526631b3e8f2322b190badd9b88995a53c11f5fb8ad6aa1c72b7b11",
+      "# instructions retired": 67829,
+      "CPI": 1,
+      "cycles": 67829,
+      "execution time (ms)": 5,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\portable_smoke_20261008\\N2_RIPES_LAB\\build\\gcc_reference.elf"
+      },
+      "wall_seconds": 0.09561029996257275,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "solver_gui",
+      "elf_sha256": "cacbd1b821206ad7146d6cf07270ea1409381a2dd1915688ceab6b1e28b16926",
+      "# instructions retired": 89444,
+      "CPI": 1.2660994588792989,
+      "cycles": 113245,
+      "execution time (ms)": 256,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\portable_smoke_20261008\\N2_RIPES_LAB\\build\\solver_gui.elf"
+      },
+      "wall_seconds": 0.36061730002984405,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 1
+    },
+    {
+      "implementation": "vectors",
+      "elf_sha256": "1fb6f3cecefa85831177cf2251693e520cc94dc2cdc1bb4c2f23349332c5681e",
+      "# instructions retired": 1526960,
+      "CPI": 1,
+      "cycles": 1526960,
+      "execution time (ms)": 76,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_ISS",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\portable_smoke_20261008\\N2_RIPES_LAB\\build\\vectors.elf"
+      },
+      "wall_seconds": 0.17100470000877976,
+      "source_type": "elf",
+      "model": "RV32_ISS",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": 32
+    },
+    {
+      "implementation": "pipeline_demo",
+      "elf_sha256": "02d9c91da5b979d287dfbb019c6bbe32fdb989f1581f10485f45107bca51a976",
+      "# instructions retired": 514,
+      "CPI": 1.198443579766537,
+      "cycles": 616,
+      "execution time (ms)": 4,
+      "runinfo": {
+        "ISA extensions": [],
+        "processor": "RV32_5S",
+        "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\portable_smoke_20261008\\N2_RIPES_LAB\\build\\pipeline_demo.elf"
+      },
+      "wall_seconds": 0.08957569999620318,
+      "source_type": "elf",
+      "model": "RV32_5S",
+      "process_returncode": 0,
+      "program_exit_code": 0,
+      "pass_cases": null
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+COMMAND C:\Users\dots\Documents\Codex\2026-10-05\2\work\toolchains\Ripes\Ripes.exe --mode cli --src C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\build\vector_06.elf -t elf --proc RV32_5S --iret --cycles --cpi --exectime --runinfo --json --output C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\evidence\vector_06_RV32_5S.json --timeout 120000
+Solution: R2 D R2 D2 R D2 
+PASS cases=1
+
+Program exited with code: 0
+

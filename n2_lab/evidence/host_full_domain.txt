@@ -1,0 +1,1 @@
+range=0:3674160 count=3674160 badcall=0 badlen=0 badsolve=0 avg_lift=0.000000 max_lift=0

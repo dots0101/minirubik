@@ -1,0 +1,22 @@
+q= 0 qprime= 0 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 1 qprime= 2 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 2 qprime= 1 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 3 qprime=12 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 4 qprime= 4 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 5 qprime= 8 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 6 qprime= 6 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 7 qprime=13 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 8 qprime= 5 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q= 9 qprime= 9 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=10 qprime=20 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=11 qprime=16 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=12 qprime= 3 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=13 qprime= 7 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=14 qprime=14 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=15 qprime=15 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=16 qprime=11 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=17 qprime=19 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=18 qprime=18 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=19 qprime=17 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+q=20 qprime=10 chart_inverse=PASS permutation_inverse=PASS matrix_product=I bias=0
+ALL_21_AFFINE_INVOLUTION_IDENTITIES_PASS

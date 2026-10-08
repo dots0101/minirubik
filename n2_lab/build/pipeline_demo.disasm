@@ -1,0 +1,130 @@
+
+C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\build\pipeline_demo.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00001000 <__image_start>:
+    1000:	00012117          	auipc	sp,0x12
+    1004:	df010113          	addi	sp,sp,-528 # 12df0 <__image_end>
+    1008:	00016537          	lui	a0,0x16
+    100c:	bb350513          	addi	a0,a0,-1101 # 15bb3 <__image_end+0x2dc3>
+    1010:	00000097          	auipc	ra,0x0
+    1014:	044080e7          	jalr	68(ra) # 1054 <policy_lookup>
+    1018:	00300293          	li	t0,3
+    101c:	02551663          	bne	a0,t0,1048 <fail>
+    1020:	00012317          	auipc	t1,0x12
+    1024:	dac30313          	addi	t1,t1,-596 # 12dcc <pipeline_result>
+    1028:	00a32023          	sw	a0,0(t1)
+    102c:	00032383          	lw	t2,0(t1)
+    1030:	00738e33          	add	t3,t2,t2
+    1034:	00600e93          	li	t4,6
+    1038:	01de1863          	bne	t3,t4,1048 <fail>
+    103c:	00000513          	li	a0,0
+    1040:	05d00893          	li	a7,93
+    1044:	00000073          	ecall
+
+00001048 <fail>:
+    1048:	00100513          	li	a0,1
+    104c:	05d00893          	li	a7,93
+    1050:	00000073          	ecall
+
+00001054 <policy_lookup>:
+    1054:	fe010113          	addi	sp,sp,-32
+    1058:	00112e23          	sw	ra,28(sp)
+    105c:	00812c23          	sw	s0,24(sp)
+    1060:	00912a23          	sw	s1,20(sp)
+    1064:	01212823          	sw	s2,16(sp)
+    1068:	01312623          	sw	s3,12(sp)
+    106c:	00d55293          	srli	t0,a0,0xd
+    1070:	00751313          	slli	t1,a0,0x7
+    1074:	00a2c2b3          	xor	t0,t0,a0
+    1078:	0062c2b3          	xor	t0,t0,t1
+    107c:	00004337          	lui	t1,0x4
+    1080:	fff30313          	addi	t1,t1,-1 # 3fff <h48_policy_dense+0x2e2b>
+    1084:	0062f2b3          	and	t0,t0,t1
+    1088:	0000e317          	auipc	t1,0xe
+    108c:	d4430313          	addi	t1,t1,-700 # edcc <h48_policy_disp>
+    1090:	006282b3          	add	t0,t0,t1
+    1094:	0002c283          	lbu	t0,0(t0)
+    1098:	00755313          	srli	t1,a0,0x7
+    109c:	00951393          	slli	t2,a0,0x9
+    10a0:	00a34333          	xor	t1,t1,a0
+    10a4:	00734333          	xor	t1,t1,t2
+    10a8:	00535393          	srli	t2,t1,0x5
+    10ac:	00734333          	xor	t1,t1,t2
+    10b0:	00235313          	srli	t1,t1,0x2
+    10b4:	006282b3          	add	t0,t0,t1
+    10b8:	00020337          	lui	t1,0x20
+    10bc:	fff30313          	addi	t1,t1,-1 # 1ffff <__image_end+0xd20f>
+    10c0:	0062f2b3          	and	t0,t0,t1
+    10c4:	01f2f993          	andi	s3,t0,31
+    10c8:	0092d313          	srli	t1,t0,0x9
+    10cc:	00231393          	slli	t2,t1,0x2
+    10d0:	0000ae17          	auipc	t3,0xa
+    10d4:	8fce0e13          	addi	t3,t3,-1796 # a9cc <h48_policy_prefix>
+    10d8:	01c383b3          	add	t2,t2,t3
+    10dc:	0003a903          	lw	s2,0(t2)
+    10e0:	0000ae17          	auipc	t3,0xa
+    10e4:	cece0e13          	addi	t3,t3,-788 # adcc <h48_policy_used>
+    10e8:	00631313          	slli	t1,t1,0x6
+    10ec:	006e04b3          	add	s1,t3,t1
+    10f0:	0052d293          	srli	t0,t0,0x5
+    10f4:	00229293          	slli	t0,t0,0x2
+    10f8:	005e0433          	add	s0,t3,t0
+    10fc:	0084fe63          	bgeu	s1,s0,1118 <policy_lookup+0xc4>
+    1100:	0004a503          	lw	a0,0(s1)
+    1104:	00000097          	auipc	ra,0x0
+    1108:	078080e7          	jalr	120(ra) # 117c <popcount32>
+    110c:	00a90933          	add	s2,s2,a0
+    1110:	00448493          	addi	s1,s1,4
+    1114:	fe9ff06f          	j	10fc <policy_lookup+0xa8>
+    1118:	02098263          	beqz	s3,113c <policy_lookup+0xe8>
+    111c:	00100293          	li	t0,1
+    1120:	013292b3          	sll	t0,t0,s3
+    1124:	fff28293          	addi	t0,t0,-1
+    1128:	00042503          	lw	a0,0(s0)
+    112c:	00557533          	and	a0,a0,t0
+    1130:	00000097          	auipc	ra,0x0
+    1134:	04c080e7          	jalr	76(ra) # 117c <popcount32>
+    1138:	00a90933          	add	s2,s2,a0
+    113c:	00195293          	srli	t0,s2,0x1
+    1140:	00000317          	auipc	t1,0x0
+    1144:	09430313          	addi	t1,t1,148 # 11d4 <h48_policy_dense>
+    1148:	006282b3          	add	t0,t0,t1
+    114c:	0002c503          	lbu	a0,0(t0)
+    1150:	00197293          	andi	t0,s2,1
+    1154:	00028463          	beqz	t0,115c <policy_lookup+0x108>
+    1158:	00455513          	srli	a0,a0,0x4
+    115c:	00f57513          	andi	a0,a0,15
+    1160:	00c12983          	lw	s3,12(sp)
+    1164:	01012903          	lw	s2,16(sp)
+    1168:	01412483          	lw	s1,20(sp)
+    116c:	01812403          	lw	s0,24(sp)
+    1170:	01c12083          	lw	ra,28(sp)
+    1174:	02010113          	addi	sp,sp,32
+    1178:	00008067          	ret
+
+0000117c <popcount32>:
+    117c:	00155293          	srli	t0,a0,0x1
+    1180:	55555337          	lui	t1,0x55555
+    1184:	55530313          	addi	t1,t1,1365 # 55555555 <__image_end+0x55542765>
+    1188:	0062f2b3          	and	t0,t0,t1
+    118c:	40550533          	sub	a0,a0,t0
+    1190:	33333337          	lui	t1,0x33333
+    1194:	33330313          	addi	t1,t1,819 # 33333333 <__image_end+0x33320543>
+    1198:	006572b3          	and	t0,a0,t1
+    119c:	00255513          	srli	a0,a0,0x2
+    11a0:	00657533          	and	a0,a0,t1
+    11a4:	00550533          	add	a0,a0,t0
+    11a8:	00455293          	srli	t0,a0,0x4
+    11ac:	00550533          	add	a0,a0,t0
+    11b0:	0f0f1337          	lui	t1,0xf0f1
+    11b4:	f0f30313          	addi	t1,t1,-241 # f0f0f0f <__image_end+0xf0de11f>
+    11b8:	00657533          	and	a0,a0,t1
+    11bc:	00855293          	srli	t0,a0,0x8
+    11c0:	00550533          	add	a0,a0,t0
+    11c4:	01055293          	srli	t0,a0,0x10
+    11c8:	00550533          	add	a0,a0,t0
+    11cc:	03f57513          	andi	a0,a0,63
+    11d0:	00008067          	ret

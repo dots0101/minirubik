@@ -1,0 +1,11 @@
+C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\build\solver_cli.elf  :
+section               size     addr
+.text                 4776     4096
+.rodata              95240     8872
+.data                    0   104112
+.bss                    40   104112
+.stack                 400   104160
+.riscv.attributes       28        0
+Total               100484
+
+

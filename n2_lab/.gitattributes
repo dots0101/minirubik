@@ -1,0 +1,2 @@
+# Preserve exact delivered bytes, including CRLF GUI exports and recorded hashes.
+* -text

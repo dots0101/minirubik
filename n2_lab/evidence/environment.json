@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Taipei",
+  "ripes_release": "v2.2.6-106-g5b8a616",
+  "ripes_commit": "5b8a616",
+  "ripes_exe": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\toolchains\\Ripes\\Ripes.exe",
+  "gcc_version": "riscv-none-elf-gcc.exe (xPack GNU RISC-V Embedded GCC x86_64) 15.2.0",
+  "gcc_exe": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\work\\toolchains\\gcc\\xpack-riscv-none-elf-gcc-15.2.0-1\\bin\\riscv-none-elf-gcc.exe",
+  "gcc_zip_sha256": "85ef714dacd273b1dadf4af4892774520ac01915bfa6da816a56e7e41591e09e",
+  "ripes_zip_sha256": "ad16997577d877838110fca9035ded9e7438db7b2e868ec05a681a12453014a4",
+  "reference_solver_sha256": "8d356669f07a7d872f7a9a22322db60fc2630bd075fe41297842356df5bc67cc",
+  "flags": "-march=rv32i -mabi=ilp32 -mno-relax -O2 -ffreestanding -fno-builtin -nostdlib -nostartfiles --no-relax",
+  "assembler_extensions": [],
+  "renderer_cli": 0,
+  "cpu_model": "Intel(R) Core(TM) Ultra 9 275HX"
+}

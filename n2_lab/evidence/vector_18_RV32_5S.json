@@ -1,0 +1,17 @@
+{
+  "# instructions retired": 56898,
+  "CPI": 1.2762838764104187,
+  "cycles": 72618,
+  "execution time (ms)": 144,
+  "runinfo": {
+    "ISA extensions": [],
+    "processor": "RV32_5S",
+    "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\vector_18.elf"
+  },
+  "wall_seconds": 0.23172539996448904,
+  "source_type": "elf",
+  "model": "RV32_5S",
+  "process_returncode": 0,
+  "program_exit_code": 0,
+  "pass_cases": 1
+}

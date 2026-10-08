@@ -1,0 +1,11 @@
+{
+  "# instructions retired": 6,
+  "cycles": 6,
+  "execution time (ms)": 0,
+  "guest_bytes_touched": 0,
+  "passes": 1,
+  "peak_working_set_bytes": 32174080,
+  "model": "RV32_ISS",
+  "rep": 1,
+  "wall_seconds": 0.052580000017769635
+}

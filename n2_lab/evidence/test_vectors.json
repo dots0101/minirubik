@@ -1,0 +1,194 @@
+[
+  {
+    "input": "12345671111111",
+    "depth": 0,
+    "dense": 0,
+    "role": "distance-0"
+  },
+  {
+    "input": "41352672313211",
+    "depth": 1,
+    "dense": 700308,
+    "role": "distance-1"
+  },
+  {
+    "input": "14275361312213",
+    "depth": 2,
+    "dense": 165186,
+    "role": "distance-2"
+  },
+  {
+    "input": "32645712313322",
+    "depth": 3,
+    "dense": 13107,
+    "role": "distance-3"
+  },
+  {
+    "input": "42315762111122",
+    "depth": 4,
+    "dense": 21153,
+    "role": "distance-4"
+  },
+  {
+    "input": "62145372133133",
+    "depth": 5,
+    "dense": 5903,
+    "role": "distance-5"
+  },
+  {
+    "input": "12345673132121",
+    "depth": 6,
+    "dense": 50,
+    "role": "distance-6"
+  },
+  {
+    "input": "12345671122133",
+    "depth": 7,
+    "dense": 34,
+    "role": "distance-7"
+  },
+  {
+    "input": "12345671121122",
+    "depth": 8,
+    "dense": 4,
+    "role": "distance-8"
+  },
+  {
+    "input": "12345672111122",
+    "depth": 9,
+    "dense": 12,
+    "role": "distance-9"
+  },
+  {
+    "input": "12345671121113",
+    "depth": 10,
+    "dense": 1,
+    "role": "distance-10"
+  },
+  {
+    "input": "12345672121232",
+    "depth": 11,
+    "dense": 259,
+    "role": "distance-11"
+  },
+  {
+    "input": "21345671111111",
+    "depth": 11,
+    "dense": 192456,
+    "role": "official"
+  },
+  {
+    "input": "26741532232121",
+    "depth": 10,
+    "dense": 1877297,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "41576233322132",
+    "depth": 9,
+    "dense": 2442364,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "54137261133122",
+    "depth": 10,
+    "dense": 3394283,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "35647213231313",
+    "depth": 9,
+    "dense": 3181214,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "37256413232231",
+    "depth": 8,
+    "dense": 2551877,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "34175622333221",
+    "depth": 9,
+    "dense": 174704,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "27631451222321",
+    "depth": 8,
+    "dense": 2089183,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "71624353312331",
+    "depth": 10,
+    "dense": 1259682,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "47536123321331",
+    "depth": 9,
+    "dense": 2619241,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "63524173323212",
+    "depth": 9,
+    "dense": 1427860,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "41273651113331",
+    "depth": 9,
+    "dense": 2969763,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "25714632233213",
+    "depth": 10,
+    "dense": 1068374,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "52374163121321",
+    "depth": 9,
+    "dense": 1208461,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "36572411231231",
+    "depth": 8,
+    "dense": 872216,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "25416371212232",
+    "depth": 9,
+    "dense": 2136327,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "65137243213313",
+    "depth": 8,
+    "dense": 3233754,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "32164572322223",
+    "depth": 8,
+    "dense": 1181425,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "34652171223113",
+    "depth": 9,
+    "dense": 621244,
+    "role": "deterministic sample"
+  },
+  {
+    "input": "26137541113223",
+    "depth": 9,
+    "dense": 3574587,
+    "role": "deterministic sample"
+  }
+]

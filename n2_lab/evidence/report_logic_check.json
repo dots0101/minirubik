@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Node VM with a DOM/canvas stub; JavaScript and recorded data verification, not visual browser QA or live Ripes ports.",
+  "cycles": 617,
+  "frames": 12,
+  "pixels_per_frame": 875,
+  "hazard_cycles": [
+    604,
+    605,
+    606,
+    608
+  ],
+  "playback_and_bounds": "PASS"
+}

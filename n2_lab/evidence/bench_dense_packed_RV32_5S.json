@@ -1,0 +1,17 @@
+{
+  "# instructions retired": 1011436,
+  "CPI": 1.1538485875527469,
+  "cycles": 1167044,
+  "execution time (ms)": 1950,
+  "runinfo": {
+    "ISA extensions": [],
+    "processor": "RV32_5S",
+    "source file": "C:\\Users\\dots\\Documents\\Codex\\2026-10-05\\2\\outputs\\N2_RIPES_LAB\\build\\bench_dense_packed.elf"
+  },
+  "wall_seconds": 2.0112188999773934,
+  "source_type": "elf",
+  "model": "RV32_5S",
+  "process_returncode": 0,
+  "program_exit_code": 0,
+  "pass_cases": null
+}

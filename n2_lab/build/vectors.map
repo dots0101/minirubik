@@ -1,0 +1,160 @@
+
+Discarded input sections
+
+ .comment       0x00000000       0x34 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+ .comment       0x00000000       0x34 C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+ .comment       0x00000000       0x34 C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+ .comment       0x00000000       0x34 C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+ .comment       0x00000000       0x34 C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                [!provide]                        PROVIDE (__stack_reserve = 0x190)
+                0x00001000                        . = 0x1000
+                0x00001000                        __image_start = .
+
+.text           0x00001000     0x1260
+ *(.text*)
+ .text          0x00001000      0x288 C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+                0x00001000                _start
+ .text          0x00001288      0xfd8 C:\Users\dots\AppData\Local\Temp\cc2NI0rR.o
+                0x00001380                n2_is_solved
+                0x000013cc                n2_state_valid
+                0x00001520                n2_apply_move
+                0x0000209c                n2_solve
+ .text          0x00002260        0x0 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+ .text          0x00002260        0x0 C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+ .text          0x00002260        0x0 C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+ .text          0x00002260        0x0 C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+ .text          0x00002260        0x0 C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+ .text          0x00002260        0x0 C:\Users\dots\AppData\Local\Temp\ccQsHtHa.o
+
+.rodata         0x00002260    0x175dc
+ *(.rodata*)
+ .rodata        0x00002260       0x45 C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+                0x00002260                input_string
+                0x0000226f                expected_depth
+ *fill*         0x000022a5        0x3 
+ .rodata        0x000022a8      0x17e C:\Users\dots\AppData\Local\Temp\cc2NI0rR.o
+ *fill*         0x00002426        0x2 
+ .rodata        0x00002428     0x3168 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+                0x00002428                n2_b8_move_delta
+                0x00002470                n2_b8_move_src
+                0x000024b8                n2_b8_sym_twist
+                0x00002938                n2_b8_sym_pos
+                0x00002968                n2_b8_action_mask
+                0x00002e14                n2_b8_exc_aid
+                0x00002e30                n2_b8_pmeta
+ .rodata        0x00005590    0x11bf8 C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+                0x00005590                h48_policy_dense
+                0x0000ed88                h48_policy_prefix
+                0x0000f188                h48_policy_used
+                0x00013188                h48_policy_disp
+ .rodata        0x00017188       0xe9 C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+                0x00017188                h48_t_ori_ctl
+                0x000171dc                h48_t_perm_R
+                0x0001725c                h48_t_dst
+ *fill*         0x00017271        0x3 
+ .rodata        0x00017274      0xd98 C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+                0x00017274                h48_exc_base
+                0x00017354                h48_common_base
+ .rodata        0x0001800c     0x1627 C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+                0x0001800c                h48_sigma_pr_3bit
+ *fill*         0x00019633        0x1 
+ .rodata        0x00019634      0x200 C:\Users\dots\AppData\Local\Temp\ccQsHtHa.o
+                0x00019634                test_vectors
+ *(.srodata*)
+ .srodata       0x00019834        0x6 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+                0x00019834                n2_b8_sym_inv
+                0x0001983c                        . = ALIGN (0x4)
+ *fill*         0x0001983a        0x2 
+
+.rela.dyn       0x0001983c        0x0
+ .rela.text     0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+
+.data           0x0001983c        0x0
+ *(.data*)
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\cc2NI0rR.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+ .data          0x0001983c        0x0 C:\Users\dots\AppData\Local\Temp\ccQsHtHa.o
+ *(.sdata*)
+                0x0001983c                        . = ALIGN (0x4)
+
+.bss            0x0001983c       0x28
+ *(.bss*)
+ .bss           0x0001983c       0x26 C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\cc2NI0rR.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+ .bss           0x00019862        0x0 C:\Users\dots\AppData\Local\Temp\ccQsHtHa.o
+ *(.sbss*)
+ *(COMMON)
+                0x00019864                        . = ALIGN (0x4)
+ *fill*         0x00019862        0x2 
+
+.stack          0x00019870      0x190
+                0x00019870                        __stack_bottom = .
+                0x00019a00                        . = (. + __stack_reserve)
+ *fill*         0x00019870      0x190 
+                0x00019a00                        __stack_top = .
+                0x00019a00                        __image_end = .
+
+/DISCARD/
+ *(.comment)
+ *(.eh_frame*)
+                0x00000001                        ASSERT ((((__image_end - __image_start) + 0xdac) <= 0x20000), Total guest image + stack + conservative LED budget exceeded)
+                0x00000190                        __stack_reserve = 0x190
+LOAD C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+LOAD C:\Users\dots\AppData\Local\Temp\cc2NI0rR.o
+LOAD C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+LOAD C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+LOAD C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+LOAD C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+LOAD C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+LOAD C:\Users\dots\AppData\Local\Temp\ccQsHtHa.o
+OUTPUT(C:\Users\dots\Documents\Codex\2026-10-05\2\outputs\N2_RIPES_LAB\build\vectors.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x1c
+ .riscv.attributes
+                0x00000000       0x1a C:\Users\dots\AppData\Local\Temp\cciCiwGW.o
+ .riscv.attributes
+                0x0000001a       0x1a C:\Users\dots\AppData\Local\Temp\cc2NI0rR.o
+ .riscv.attributes
+                0x00000034       0x1c C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+ .riscv.attributes
+                0x00000050       0x1c C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+ .riscv.attributes
+                0x0000006c       0x1c C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+ .riscv.attributes
+                0x00000088       0x1c C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+ .riscv.attributes
+                0x000000a4       0x1c C:\Users\dots\AppData\Local\Temp\ccPSio06.o
+ .riscv.attributes
+                0x000000c0       0x1a C:\Users\dots\AppData\Local\Temp\ccQsHtHa.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\dots\AppData\Local\Temp\ccc79KkS.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\dots\AppData\Local\Temp\ccMz9fWU.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\dots\AppData\Local\Temp\ccecyQrZ.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\dots\AppData\Local\Temp\ccMtuSB5.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\dots\AppData\Local\Temp\ccPSio06.o

@@ -1,0 +1,16 @@
+{
+  "excerpt_sha256": "9e969f6a4fb832a7a8a2ec0d501bca04278994959ad9e97b4832d0aab0a691d1",
+  "source": "target/solver_rv32.S",
+  "function": "policy_lookup",
+  "exact_source_slice": true,
+  ".text": 468,
+  ".rodata": 72696,
+  ".data": 0,
+  ".bss": 4,
+  ".stack": 32,
+  "static_data": 72732,
+  "allocated_image_bytes": 73200,
+  "section_bytes": 73200,
+  "alignment_gap_bytes": 0,
+  "course_static_data": 72700
+}
